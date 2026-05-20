@@ -1,0 +1,2929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MBEES | Engineering Elegance in Steel, Glass & Aluminum</title>
+
+  <!-- ═══ SEO META TAGS ═══════════════════════════════════════════
+       Replace the content values below with your real details
+       ═══════════════════════════════════════════════════════════ -->
+  <meta name="description" content="MBEES — Premium stainless steel, gold, aluminium and glass architectural solutions. Railings, facades, glass partitions, cladding and more across Andhra Pradesh and Telangana.">
+  <meta name="keywords"    content="steel railing, gold railing, glass partition, aluminium facade, ACP cladding, architectural hardware, Andhra Pradesh, Hyderabad">
+  <meta name="author"      content="MBEES Architectural Solutions">
+  <meta name="robots"      content="index, follow">
+  <link rel="canonical"    href="https://www.mbees.netlify.app">
+
+  <!-- Open Graph — controls how your link looks when shared on WhatsApp, LinkedIn etc. -->
+  <meta property="og:title"       content="MBEES | Engineering Elegance in Steel, Glass & Aluminum">
+  <meta property="og:description" content="Premium architectural metal solutions — gold railings, glass partitions, aluminium facades. South India's finest.">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.mbees.netlify.app">
+  <meta property="og:image"       content="https://www.mbees.netlify.app/images/og-preview.jpg">
+
+  <!-- ═══ GOOGLE ANALYTICS ═══════════════════════════════════════
+       Step 1: Go to analytics.google.com → create a free account
+       Step 2: Copy your Measurement ID (looks like G-XXXXXXXXXX)
+       Step 3: Replace G-XXXXXXXXXX below with your real ID
+       ═══════════════════════════════════════════════════════════ -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-A1B2C3D4E5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-A1B2C3D4E5');
+  </script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --gold: #C9A84C;
+    --gold-light: #E8C97A;
+    --gold-dark: #9A7A2E;
+    --rose-gold: #C49080;
+    --charcoal: #1A1A1A;
+    --charcoal-mid: #2C2C2C;
+    --charcoal-light: #3D3D3D;
+    --silver: #A8A8A8;
+    --silver-light: #D4D4D4;
+    --silver-pale: #F0EFED;
+    --white: #FAFAF8;
+    --text-muted: #888;
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Montserrat', sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--charcoal);
+    color: var(--white);
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    height: 80px;
+    background: rgba(18,18,18,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    transition: background 0.3s;
+  }
+
+  .nav-logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+  .nav-logo .brand {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    color: var(--gold);
+  }
+  .nav-logo .tagline {
+    font-size: 0.5rem;
+    letter-spacing: 0.35em;
+    color: var(--silver);
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  .nav-links a {
+    text-decoration: none;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--silver-light);
+    transition: color 0.3s;
+    position: relative;
+  }
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; left: 0; right: 100%;
+    height: 1px;
+    background: var(--gold);
+    transition: right 0.3s;
+  }
+  .nav-links a:hover { color: var(--gold); }
+  .nav-links a:hover::after { right: 0; }
+
+  .nav-cta {
+    background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+    color: var(--charcoal) !important;
+    padding: 0.55rem 1.5rem;
+    font-weight: 600;
+    font-size: 0.65rem !important;
+    letter-spacing: 0.2em;
+  }
+  .nav-cta::after { display: none !important; }
+  .nav-cta:hover { background: linear-gradient(135deg, var(--gold-light), var(--gold)) !important; color: var(--charcoal) !important; }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 80% 80% at 70% 40%, rgba(201,168,76,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 60% at 20% 80%, rgba(196,144,128,0.05) 0%, transparent 50%),
+      linear-gradient(160deg, #0D0D0D 0%, #1A1A1A 40%, #111 100%);
+  }
+
+  .hero-grid-overlay {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .hero-accent-line {
+    position: absolute;
+    top: 0; bottom: 0;
+    right: 38%;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, rgba(201,168,76,0.4) 30%, rgba(201,168,76,0.4) 70%, transparent);
+  }
+
+  .hero-visual {
+    position: absolute;
+    right: 0; top: 0; bottom: 0;
+    width: 40%;
+    overflow: hidden;
+  }
+  .hero-visual-inner {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #1E1E1E 0%, #2A2A2A 50%, #1A1A1A 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-visual::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -60px;
+    background: linear-gradient(to right, var(--charcoal), transparent);
+    z-index: 2;
+  }
+  .railing-svg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 10;
+    padding: 0 4rem;
+    max-width: 700px;
+    animation: fadeUp 1.2s ease both;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(201,168,76,0.1);
+    border: 1px solid rgba(201,168,76,0.3);
+    padding: 0.4rem 1.2rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 2rem;
+  }
+  .hero-badge span { width: 20px; height: 1px; background: var(--gold); }
+
+  h1.hero-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2.8rem, 5vw, 5rem);
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.5rem;
+    color: var(--white);
+  }
+  h1.hero-title em {
+    font-style: italic;
+    color: var(--gold);
+  }
+
+  .hero-sub {
+    font-size: 0.85rem;
+    line-height: 1.8;
+    color: var(--silver);
+    max-width: 520px;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+    color: #111;
+    padding: 1rem 2.5rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-primary::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.15);
+    transform: translateX(-100%) skewX(-15deg);
+    transition: transform 0.4s;
+  }
+  .btn-primary:hover::before { transform: translateX(120%) skewX(-15deg); }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(201,168,76,0.3); }
+
+  .btn-outline {
+    color: var(--silver-light);
+    padding: 1rem 2rem;
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: all 0.3s;
+  }
+  .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+  .hero-stats {
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .stat-item {}
+  .stat-num {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1;
+    display: block;
+  }
+  .stat-label {
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-top: 0.3rem;
+    display: block;
+  }
+
+  /* ── SCROLL INDICATOR ── */
+  .scroll-hint {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.55rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(6px); }
+  }
+  .scroll-hint::after {
+    content: '';
+    width: 1px;
+    height: 40px;
+    background: linear-gradient(to bottom, var(--gold), transparent);
+  }
+
+  /* ── SECTION COMMON ── */
+  section {
+    padding: 7rem 4rem;
+  }
+
+  .section-label {
+    font-size: 0.6rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section-label::before {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 3.5vw, 3.2rem);
+    font-weight: 300;
+    line-height: 1.15;
+    margin-bottom: 1.5rem;
+    color: var(--white);
+  }
+  .section-title em { color: var(--gold); font-style: italic; }
+
+  .section-desc {
+    font-size: 0.85rem;
+    line-height: 1.9;
+    color: var(--silver);
+    font-weight: 300;
+    max-width: 520px;
+  }
+
+  /* ── PRODUCTS ── */
+  #products {
+    background: #111;
+  }
+
+  .products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .product-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    white-space: nowrap;
+  }
+  .tab-btn:hover { color: var(--silver-light); }
+  .tab-btn.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+  .tab-panel { display: none; }
+  .tab-panel.active { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5px; }
+
+  .product-card {
+    background: #1A1A1A;
+    padding: 2rem;
+    transition: all 0.4s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 100%;
+    height: 2px;
+    background: var(--gold);
+    transition: right 0.4s;
+  }
+  .product-card:hover::before { right: 0; }
+  .product-card:hover { background: #222; transform: translateY(-3px); }
+
+  .product-icon {
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(201,168,76,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    color: var(--gold);
+    font-size: 1.2rem;
+  }
+  .product-card h4 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--silver-light);
+    margin-bottom: 0.5rem;
+  }
+  .product-card p {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+
+  /* ── LUXURY BANNER ── */
+  .luxury-banner {
+    background: linear-gradient(135deg, #1A1510 0%, #231E12 50%, #1A1510 100%);
+    border-top: 1px solid rgba(201,168,76,0.2);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    padding: 5rem 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .luxury-banner::before {
+    content: 'MBEES';
+    position: absolute;
+    right: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: var(--font-serif);
+    font-size: 20rem;
+    color: rgba(201,168,76,0.03);
+    line-height: 1;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .luxury-inner {
+    max-width: 800px;
+    position: relative;
+    z-index: 1;
+  }
+  .luxury-inner blockquote {
+    font-family: var(--font-serif);
+    font-size: clamp(1.4rem, 2.5vw, 2.2rem);
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--gold-light);
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+  .luxury-inner cite {
+    font-size: 0.65rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--silver);
+    font-style: normal;
+  }
+
+  /* ── ABOUT ── */
+  #about {
+    background: var(--charcoal);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+  }
+
+  .about-visual {
+    position: relative;
+  }
+  .about-visual-frame {
+    width: 100%;
+    aspect-ratio: 4/5;
+    background: linear-gradient(135deg, #252525, #1A1A1A);
+    border: 1px solid rgba(201,168,76,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .about-visual-frame::before {
+    content: '';
+    position: absolute;
+    inset: 12px;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+
+  .material-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 2rem;
+  }
+  .badge {
+    border: 1px solid rgba(201,168,76,0.3);
+    padding: 0.5rem 1.2rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+
+  .about-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5px;
+    margin-top: 3rem;
+    background: rgba(255,255,255,0.04);
+  }
+  .about-stat {
+    background: #1A1A1A;
+    padding: 1.5rem;
+  }
+  .about-stat-num {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    color: var(--gold);
+    display: block;
+    line-height: 1;
+    margin-bottom: 0.3rem;
+  }
+  .about-stat-label {
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+  }
+
+  .pillar-list {
+    list-style: none;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .pillar-list li {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    font-size: 0.78rem;
+    color: var(--silver);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+  .pillar-list li::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: var(--gold);
+    margin-top: 0.65rem;
+    flex-shrink: 0;
+  }
+
+  /* ── MATERIALS STRIP ── */
+  .materials-strip {
+    background: #111;
+    padding: 3rem 4rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    overflow-x: auto;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .materials-strip::-webkit-scrollbar { display: none; }
+
+  .material-chip {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .material-swatch {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .material-chip span {
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--silver);
+  }
+  .strip-divider {
+    width: 1px;
+    height: 30px;
+    background: rgba(255,255,255,0.1);
+    flex-shrink: 0;
+  }
+
+  /* ── CONTACT ── */
+  #contact {
+    background: #0D0D0D;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 6rem;
+    align-items: start;
+  }
+
+  .contact-info h3 {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--silver);
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    font-style: italic;
+  }
+
+  .contact-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .contact-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .contact-item-icon {
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(201,168,76,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold);
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+  .contact-item-text strong {
+    display: block;
+    font-size: 0.6rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.3rem;
+  }
+  .contact-item-text p {
+    font-size: 0.8rem;
+    color: var(--silver);
+    font-weight: 300;
+  }
+
+  /* FORM */
+  .inquiry-form {
+    background: #151515;
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 3rem;
+  }
+
+  .form-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .form-header h3 {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+  }
+  .form-header p {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .form-group.full { grid-column: span 2; }
+
+  label {
+    font-size: 0.58rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  input, select, textarea {
+    background: #1E1E1E;
+    border: 1px solid rgba(255,255,255,0.08);
+    color: var(--white);
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 0.85rem 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+    width: 100%;
+    appearance: none;
+  }
+  input:focus, select:focus, textarea:focus {
+    border-color: rgba(201,168,76,0.5);
+  }
+  select option { background: #1E1E1E; }
+  textarea { resize: vertical; min-height: 100px; }
+
+  .file-upload {
+    border: 1px dashed rgba(201,168,76,0.25);
+    padding: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .file-upload:hover { border-color: var(--gold); background: rgba(201,168,76,0.03); }
+  .file-upload input { display: none; }
+  .file-upload-label {
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: var(--text-muted);
+    cursor: pointer;
+  }
+  .file-upload-label strong { color: var(--gold); }
+
+  .form-submit {
+    background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+    color: #111;
+    border: none;
+    width: 100%;
+    padding: 1.1rem;
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 1rem;
+  }
+  .form-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(201,168,76,0.25); }
+
+  /* ════════════════════════════════════════════════════════════════════
+     PORTFOLIO — Premium Interactive Gallery
+     Design: dark luxury, gold accents #BDB078/#8C7A43, smooth transitions
+     ════════════════════════════════════════════════════════════════════ */
+
+  /* ── CSS CUSTOM PROPERTIES (gold palette) ── */
+  :root {
+    --pf-gold:        #BDB078;
+    --pf-gold-dark:   #8C7A43;
+    --pf-gold-glow:   rgba(189,176,120,0.18);
+    --pf-black:       #0A0A0A;
+    --pf-card-bg:     #111111;
+    --pf-overlay-bg:  rgba(8,8,8,0.92);
+    --pf-transition:  0.38s cubic-bezier(0.4,0,0.2,1);
+  }
+
+  /* ── SECTION ── */
+  #portfolio {
+    background: var(--pf-black);
+    padding: 7rem 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  #portfolio::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(189,176,120,0.028) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(189,176,120,0.028) 1px, transparent 1px);
+    background-size: 72px 72px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  #portfolio > * { position: relative; z-index: 1; }
+
+  /* ── HEADER ── */
+  .portfolio-header {
+    text-align: center;
+    margin-bottom: 3.5rem;
+  }
+  .portfolio-header .section-label {
+    justify-content: center;
+  }
+  .portfolio-header .section-label::before { display: none; }
+  .portfolio-header .section-label::after {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background: var(--pf-gold);
+  }
+  .portfolio-header p {
+    font-size: 0.85rem;
+    color: var(--silver);
+    font-weight: 300;
+    max-width: 560px;
+    margin: 0 auto;
+    line-height: 1.9;
+  }
+
+  /* ════════════════════════════
+     FILTER BAR
+     ════════════════════════════ */
+  .pf-filter-bar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0;                        /* buttons touch — pill group feel */
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(189,176,120,0.18);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pf-filter-btn {
+    background: transparent;
+    border: none;
+    border-right: 1px solid rgba(189,176,120,0.18);
+    color: rgba(189,176,120,0.55);
+    font-family: var(--font-sans);
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    padding: 0.85rem 1.8rem;
+    cursor: pointer;
+    position: relative;
+    transition: color var(--pf-transition), background var(--pf-transition);
+    white-space: nowrap;
+  }
+  .pf-filter-btn:last-child { border-right: none; }
+
+  /* Gold underline indicator */
+  .pf-filter-btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 10%; right: 10%;
+    height: 2px;
+    background: var(--pf-gold);
+    transform: scaleX(0);
+    transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
+    transform-origin: center;
+  }
+  .pf-filter-btn:hover {
+    color: var(--pf-gold);
+    background: rgba(189,176,120,0.05);
+  }
+  .pf-filter-btn:hover::after { transform: scaleX(0.6); }
+
+  .pf-filter-btn.pf-active {
+    color: var(--pf-gold);
+    background: rgba(189,176,120,0.08);
+  }
+  .pf-filter-btn.pf-active::after { transform: scaleX(1); }
+
+  /* ── COUNT BAR ── */
+  .pf-count-bar {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 0.58rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: rgba(189,176,120,0.4);
+    min-height: 1.2rem;
+    transition: opacity 0.2s;
+  }
+  .pf-count-bar span { color: var(--pf-gold); font-weight: 600; }
+
+  /* ════════════════════════════
+     PROJECT GRID
+     ════════════════════════════ */
+  .pf-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    min-height: 300px;
+  }
+
+  /* ── CARD ── */
+  .pf-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: var(--pf-card-bg);
+    height: 320px;
+    /* Filtering animation */
+    opacity: 1;
+    transform: scale(1);
+    transition:
+      opacity 0.32s ease,
+      transform 0.32s ease,
+      box-shadow 0.32s ease;
+  }
+
+  /* Card hover — lift + gold shadow */
+  .pf-card:hover {
+    z-index: 2;
+    box-shadow: 0 0 0 1px var(--pf-gold-dark), 0 16px 48px rgba(0,0,0,0.6);
+  }
+
+  /* ── IMAGE LAYER ── */
+  .pf-card__img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    /* Zoom on hover — driven by JS class toggle */
+    transition: transform 0.55s cubic-bezier(0.4,0,0.2,1);
+    transform: scale(1);
+    will-change: transform;
+  }
+  .pf-card.is-hovered .pf-card__img { transform: scale(1.08); }
+
+  /* ── PLACEHOLDER (no image) ── */
+  .pf-card__placeholder {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    transition: background 0.3s;
+  }
+  .pf-card.is-hovered .pf-card__placeholder {
+    background: rgba(30,30,30,0.9);
+  }
+
+  /* ── PERMANENT LABEL (bottom strip — always visible) ── */
+  .pf-card__label {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 1.2rem 1.4rem 1rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.82) 0%, transparent 100%);
+    z-index: 3;
+    /* Slide down on hover to make room for overlay */
+    transition: transform 0.38s cubic-bezier(0.4,0,0.2,1);
+  }
+  .pf-card.is-hovered .pf-card__label { transform: translateY(100%); }
+
+  .pf-card__badge {
+    display: inline-block;
+    font-size: 0.5rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--pf-gold);
+    margin-bottom: 0.3rem;
+  }
+  .pf-card__title {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+  }
+
+  /* ── HOVER OVERLAY (slides up from bottom) ── */
+  .pf-card__overlay {
+    position: absolute;
+    inset: 0;
+    background: var(--pf-overlay-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1.8rem;
+    z-index: 4;
+    /* Hidden by default — slides up on hover */
+    transform: translateY(100%);
+    transition: transform 0.42s cubic-bezier(0.4,0,0.2,1);
+  }
+  .pf-card.is-hovered .pf-card__overlay { transform: translateY(0); }
+
+  /* Gold top border on overlay */
+  .pf-card__overlay::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--pf-gold), transparent);
+  }
+
+  .pf-overlay__cat {
+    font-size: 0.52rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--pf-gold);
+    margin-bottom: 0.5rem;
+  }
+  .pf-overlay__title {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 0.85rem;
+  }
+  .pf-overlay__divider {
+    width: 28px;
+    height: 1px;
+    background: var(--pf-gold-dark);
+    margin-bottom: 0.85rem;
+  }
+  .pf-overlay__desc {
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.62);
+    line-height: 1.75;
+    font-weight: 300;
+    margin-bottom: 1.1rem;
+    /* Clamp to 3 lines so it never overflows */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .pf-overlay__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.58rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--pf-gold);
+    font-weight: 600;
+    cursor: pointer;
+    transition: gap 0.2s;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: var(--font-sans);
+  }
+  .pf-overlay__cta:hover { gap: 0.85rem; }
+  .pf-overlay__cta::after { content: '›'; font-size: 1rem; line-height: 1; }
+
+  /* ── CARD FILTER HIDE STATE ── */
+  .pf-card.pf-hidden {
+    opacity: 0;
+    transform: scale(0.96);
+    pointer-events: none;
+    /* Collapse card out of grid flow */
+    position: absolute;
+    width: 0; height: 0; overflow: hidden;
+    padding: 0; margin: 0;
+  }
+
+  /* ── EMPTY STATE ── */
+  .pf-empty {
+    grid-column: 1 / -1;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 2rem;
+    gap: 1rem;
+  }
+  .pf-empty.show { display: flex; }
+  .pf-empty p {
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.2);
+  }
+
+  /* ── LOAD MORE ── */
+  .pf-load-more { text-align: center; margin-top: 3rem; }
+  .pf-load-btn {
+    background: none;
+    border: 1px solid rgba(189,176,120,0.3);
+    color: var(--pf-gold);
+    font-family: var(--font-sans);
+    font-size: 0.6rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    transition: all 0.28s;
+  }
+  .pf-load-btn:hover {
+    background: rgba(189,176,120,0.07);
+    border-color: var(--pf-gold);
+    transform: translateY(-2px);
+  }
+
+  /* ════════════════════════════════════════
+     MODAL / LIGHTBOX
+     ════════════════════════════════════════ */
+  .pf-modal-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.94);
+    z-index: 9000;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .pf-modal-backdrop.pf-open {
+    display: flex;
+    animation: pfBackdropIn 0.28s ease;
+  }
+  @keyframes pfBackdropIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  .pf-modal {
+    position: relative;
+    background: #141414;
+    border: 1px solid rgba(189,176,120,0.18);
+    max-width: 980px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    animation: pfModalIn 0.32s cubic-bezier(0.4,0,0.2,1);
+  }
+  .pf-modal::-webkit-scrollbar { display: none; }
+  @keyframes pfModalIn {
+    from { opacity: 0; transform: translateY(24px) scale(0.98); }
+    to   { opacity: 1; transform: translateY(0)   scale(1);    }
+  }
+  .pf-modal-close {
+    position: absolute;
+    top: 1rem; right: 1rem;
+    z-index: 10;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.6);
+    width: 38px; height: 38px;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: monospace;
+    transition: all 0.2s;
+  }
+  .pf-modal-close:hover {
+    background: rgba(189,176,120,0.15);
+    border-color: var(--pf-gold);
+    color: var(--pf-gold);
+  }
+  .pf-modal-img-pane {
+    position: relative;
+    min-height: 480px;
+    background: #1a1a1a;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+  }
+  .pf-modal-img-placeholder {
+    width: 100%;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: linear-gradient(135deg,#181818,#222);
+  }
+  .pf-modal-info {
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .pf-modal-cat-badge {
+    display: inline-block;
+    border: 1px solid rgba(189,176,120,0.35);
+    color: var(--pf-gold);
+    font-size: 0.55rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    padding: 0.35rem 0.9rem;
+    width: fit-content;
+    margin-bottom: 1.2rem;
+  }
+  .pf-modal-title {
+    font-family: var(--font-serif);
+    font-size: 1.55rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+  }
+  .pf-modal-divider {
+    width: 36px; height: 1px;
+    background: var(--pf-gold);
+    margin-bottom: 1rem;
+  }
+  .pf-modal-desc {
+    font-size: 0.79rem;
+    color: rgba(255,255,255,0.55);
+    line-height: 1.85;
+    font-weight: 300;
+    flex-grow: 1;
+    margin-bottom: 1.5rem;
+  }
+  .pf-modal-specs {
+    border-top: 1px solid rgba(255,255,255,0.06);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+    display: flex; flex-direction: column; gap: 0.55rem;
+  }
+  .pf-modal-spec-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pf-modal-spec-key {
+    font-size: 0.56rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+  }
+  .pf-modal-spec-val {
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.75);
+    text-align: right;
+  }
+  .pf-modal-cta {
+    display: block;
+    background: linear-gradient(135deg, var(--pf-gold), var(--pf-gold-dark));
+    color: #0a0a0a;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    font-family: var(--font-sans);
+    width: 100%;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
+  }
+  .pf-modal-cta::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: rgba(255,255,255,0.14);
+    transform: translateX(-110%) skewX(-15deg);
+    transition: transform 0.4s;
+  }
+  .pf-modal-cta:hover::before { transform: translateX(120%) skewX(-15deg); }
+  .pf-modal-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(189,176,120,0.25); }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 1100px) {
+    .pf-grid { grid-template-columns: repeat(2, 1fr); }
+    .pf-card { height: 280px; }
+  }
+  @media (max-width: 1024px) {
+    .pf-modal { grid-template-columns: 1fr; max-width: 540px; }
+    .pf-modal-img-pane { min-height: 300px; height: 300px; }
+    .pf-modal-img-placeholder { min-height: 300px; }
+  }
+  @media (max-width: 768px) {
+    #portfolio { padding: 5rem 1.5rem; }
+    .pf-filter-bar { width: 100%; flex-wrap: wrap; }
+    .pf-filter-btn {
+      border-right: 1px solid rgba(189,176,120,0.18);
+      border-bottom: 1px solid rgba(189,176,120,0.18);
+      flex: 1 1 auto;
+      text-align: center;
+      padding: 0.7rem 1rem;
+      font-size: 0.56rem;
+    }
+    .pf-grid { grid-template-columns: repeat(2, 1fr); gap: 2px; }
+    .pf-card { height: 220px; }
+    /* On mobile — always show label, overlay on tap via JS */
+    .pf-card__label { transform: none !important; }
+    .pf-card.is-hovered .pf-card__label { transform: translateY(100%) !important; }
+  }
+  @media (max-width: 480px) {
+    .pf-grid { grid-template-columns: 1fr; }
+    .pf-card { height: 240px; }
+    .pf-modal-info { padding: 1.5rem; }
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #080808;
+    padding: 4rem 4rem 2rem;
+    border-top: 1px solid rgba(201,168,76,0.15);
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .footer-brand .brand {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    color: var(--gold);
+    display: block;
+    line-height: 1;
+    letter-spacing: 0.1em;
+  }
+  .footer-brand p {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+    font-weight: 300;
+    margin-top: 1rem;
+    max-width: 280px;
+  }
+
+  .footer-col h5 {
+    font-size: 0.58rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.5rem;
+  }
+  .footer-col ul { list-style: none; }
+  .footer-col ul li {
+    margin-bottom: 0.75rem;
+  }
+  .footer-col ul a {
+    text-decoration: none;
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    font-weight: 300;
+    transition: color 0.3s;
+  }
+  .footer-col ul a:hover { color: var(--gold); }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.6rem;
+    color: rgba(255,255,255,0.2);
+    letter-spacing: 0.1em;
+  }
+  .footer-bottom span { color: var(--gold-dark); }
+
+  /* ── LIGHTBOX ── */
+  /* ── SVG VISUALS ── */
+  .pattern-steel {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ── FORM SUCCESS ── */
+  .form-success {
+    display: none;
+    text-align: center;
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .form-success.show { display: flex; }
+  .success-icon {
+    width: 60px;
+    height: 60px;
+    border: 2px solid var(--gold);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--gold);
+  }
+
+  /* Smooth nav highlight on scroll */
+  @media (max-width: 900px) {
+    nav { padding: 0 2rem; }
+    .nav-links { gap: 1.5rem; }
+    #hero { padding-top: 80px; }
+    .hero-visual { display: none; }
+    section { padding: 5rem 2rem; }
+    #about, #contact { grid-template-columns: 1fr; gap: 3rem; }
+    .form-grid { grid-template-columns: 1fr; }
+    .form-group.full { grid-column: span 1; }
+    .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .hero-stats { gap: 1.5rem; flex-wrap: wrap; }
+    .luxury-banner { padding: 4rem 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav id="main-nav">
+  <div class="nav-logo">
+    <span class="brand">MBEES</span>
+    <span class="tagline">Architectural Metal Solutions</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#products">Products</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Request a Quote</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-overlay"></div>
+  <div class="hero-accent-line"></div>
+
+  <div class="hero-visual">
+    <div class="hero-visual-inner">
+      <svg class="railing-svg" viewBox="0 0 400 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Glass panels -->
+        <rect x="30" y="100" width="160" height="500" rx="2" fill="rgba(180,210,230,0.08)" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+        <rect x="210" y="100" width="160" height="500" rx="2" fill="rgba(180,210,230,0.08)" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+        <!-- Glass reflections -->
+        <rect x="45" y="120" width="30" height="460" rx="1" fill="rgba(255,255,255,0.03)"/>
+        <rect x="225" y="120" width="30" height="460" rx="1" fill="rgba(255,255,255,0.03)"/>
+        <!-- Top rail -->
+        <rect x="20" y="95" width="360" height="12" rx="2" fill="rgba(201,168,76,0.6)"/>
+        <!-- Bottom rail -->
+        <rect x="20" y="593" width="360" height="12" rx="2" fill="rgba(201,168,76,0.6)"/>
+        <!-- Posts -->
+        <rect x="20" y="95" width="14" height="510" rx="2" fill="rgba(201,168,76,0.5)"/>
+        <rect x="192" y="95" width="14" height="510" rx="2" fill="rgba(201,168,76,0.5)"/>
+        <rect x="366" y="95" width="14" height="510" rx="2" fill="rgba(201,168,76,0.5)"/>
+        <!-- Mid horizontal -->
+        <rect x="20" y="345" width="360" height="8" rx="1" fill="rgba(201,168,76,0.3)"/>
+        <!-- Decorative base -->
+        <rect x="10" y="605" width="380" height="20" rx="3" fill="rgba(50,50,50,0.8)"/>
+        <rect x="0" y="620" width="400" height="8" rx="0" fill="rgba(30,30,30,0.9)"/>
+        <!-- Light glint top rail -->
+        <rect x="22" y="96" width="356" height="3" rx="1" fill="rgba(255,255,255,0.15)"/>
+        <!-- Post shine -->
+        <rect x="22" y="97" width="4" height="508" rx="1" fill="rgba(255,255,255,0.1)"/>
+        <rect x="194" y="97" width="4" height="508" rx="1" fill="rgba(255,255,255,0.1)"/>
+        <rect x="368" y="97" width="4" height="508" rx="1" fill="rgba(255,255,255,0.1)"/>
+        <!-- Ambient light on glass -->
+        <ellipse cx="110" cy="280" rx="80" ry="200" fill="rgba(201,168,76,0.03)"/>
+        <ellipse cx="290" cy="320" rx="80" ry="180" fill="rgba(201,168,76,0.02)"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge"><span></span>Premium Architectural Hardware<span></span></div>
+    <h1 class="hero-title">Engineering <em>Elegance</em> in Steel, Glass &amp; Aluminum</h1>
+    <p class="hero-sub">From bespoke gold railings to advanced architectural facades, we bridge the gap between structural integrity and modern design — crafting spaces that endure and inspire.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Request a Quote</a>
+      <a href="#products" class="btn-outline">Explore Products</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-num">15+</span>
+        <span class="stat-label">Years of Excellence</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">Projects Delivered</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">304/316</span>
+        <span class="stat-label">Grade Steel</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">Scroll</div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="products-header">
+    <div>
+      <div class="section-label">What We Offer</div>
+      <h2 class="section-title">Our Product <em>Portfolio</em></h2>
+    </div>
+    <p class="section-desc">Precision-engineered solutions across six specialized categories — each crafted to the highest material standards.</p>
+  </div>
+
+  <div class="product-tabs">
+    <button class="tab-btn active" data-tab="railing">Premium Railing</button>
+    <button class="tab-btn" data-tab="luxury">Luxury Line</button>
+    <button class="tab-btn" data-tab="glass">Glass Solutions</button>
+    <button class="tab-btn" data-tab="aluminum">Aluminium Works</button>
+    <button class="tab-btn" data-tab="specialized">Specialized Systems</button>
+    <button class="tab-btn" data-tab="cladding">Cladding</button>
+  </div>
+
+  <!-- Railing -->
+  <div class="tab-panel active" id="tab-railing">
+    <div class="product-card">
+      <div class="product-icon">✦</div>
+      <h4>MS Railing</h4>
+      <p>Mild steel railings with precision welding and powder-coat finish. Structural and versatile.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◈</div>
+      <h4>Steel Railing</h4>
+      <p>304-grade stainless steel for corrosion-resistant, long-lasting railings in all environments.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◇</div>
+      <h4>Steel & Glass Railing</h4>
+      <p>Seamless combination of polished steel posts and tempered glass infills for modern interiors.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">▢</div>
+      <h4>Glass Railing</h4>
+      <p>Frameless or semi-frameless glass railing systems for unobstructed views and sleek profiles.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">⌶</div>
+      <h4>Wooden Railing</h4>
+      <p>Hardwood rail systems blending warmth of timber with precision steel or glass integration.</p>
+    </div>
+  </div>
+
+  <!-- Luxury -->
+  <div class="tab-panel" id="tab-luxury">
+    <div class="product-card">
+      <div class="product-icon" style="color:var(--gold)">✦</div>
+      <h4>Gold Railing</h4>
+      <p>PVD gold-coated stainless steel railings delivering opulent aesthetics with industrial durability.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon" style="color:var(--gold)">◈</div>
+      <h4>Gold & Glass Railing</h4>
+      <p>Premium PVD gold fittings paired with ultra-clear starphire glass for luxury residential spaces.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon" style="color:var(--rose-gold)">◇</div>
+      <h4>Rose Gold Finishes</h4>
+      <p>Warm rose gold PVD coating across railings, hardware and trim for contemporary luxury interiors.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">▢</div>
+      <h4>Aluminium Glass Railing</h4>
+      <p>Lightweight aluminium channel systems with glass infills — corrosion-proof and maintenance-free.</p>
+    </div>
+  </div>
+
+  <!-- Glass -->
+  <div class="tab-panel" id="tab-glass">
+    <div class="product-card">
+      <div class="product-icon">▣</div>
+      <h4>Glass Partition</h4>
+      <p>Full-height and partial-height glazed partitions for offices and hospitality spaces.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">▤</div>
+      <h4>Glass Cubicle</h4>
+      <p>Frameless and framed glass office cubicle systems with acoustic laminate options.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">▥</div>
+      <h4>Glass Doors</h4>
+      <p>Pivot, swing, and sliding glass door systems in tempered or laminated safety glass.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">▦</div>
+      <h4>Glass Ghost Doors</h4>
+      <p>Concealed hardware ghost glass door systems that disappear into the wall plane.</p>
+    </div>
+  </div>
+
+  <!-- Aluminium -->
+  <div class="tab-panel" id="tab-aluminum">
+    <div class="product-card">
+      <div class="product-icon">◻</div>
+      <h4>Aluminium Partition</h4>
+      <p>Demountable aluminium partition systems for flexible commercial and retail environments.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◼</div>
+      <h4>Aluminium & Glass Facade</h4>
+      <p>Curtain wall and unitised facade systems combining structural aluminium with high-performance glazing.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◧</div>
+      <h4>Aluminium Louvers</h4>
+      <p>Fixed and adjustable aluminium louvre systems for solar shading and ventilation control.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◨</div>
+      <h4>Domal Windows</h4>
+      <p>Heavy-duty aluminium domal window systems with thermal break technology and multi-point locking.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◩</div>
+      <h4>Aluminium Doors</h4>
+      <p>Swing, pivot, and flush aluminium doors for residential and high-traffic commercial settings.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◪</div>
+      <h4>Aluminium Cabins</h4>
+      <p>Modular aluminium cabin and room enclosure systems for rapid deployment and reconfiguration.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◫</div>
+      <h4>Aluminium Rafters</h4>
+      <p>Structural aluminium rafter systems for skylights, canopies, and rooflight glazing applications.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">⬡</div>
+      <h4>Profile Work</h4>
+      <p>Custom extruded aluminium profile fabrication for bespoke architectural and furniture applications.</p>
+    </div>
+  </div>
+
+  <!-- Specialized -->
+  <div class="tab-panel" id="tab-specialized">
+    <div class="product-card">
+      <div class="product-icon">⟷</div>
+      <h4>Telescopic Sliding</h4>
+      <p>Multi-panel telescopic sliding door systems for wide openings with minimal stack width.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">⟺</div>
+      <h4>Bifolding Doors</h4>
+      <p>Aluminium bifold door systems that fold and stack for seamless indoor-outdoor transitions.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">⟿</div>
+      <h4>Synchronized Sliding</h4>
+      <p>Motor-driven synchronized multi-panel sliding systems with smart building integration capability.</p>
+    </div>
+  </div>
+
+  <!-- Cladding -->
+  <div class="tab-panel" id="tab-cladding">
+    <div class="product-card">
+      <div class="product-icon">◰</div>
+      <h4>ACP Cladding</h4>
+      <p>Aluminium Composite Panel cladding systems in a full range of finishes for exterior facades.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◱</div>
+      <h4>HPL Cladding</h4>
+      <p>High-Pressure Laminate exterior cladding — durable, UV-stable, and available in bespoke patterns.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">◲</div>
+      <h4>Kitchen Profile</h4>
+      <p>Precision aluminium profile systems for kitchen cabinetry edging, handles, and modular joinery.</p>
+    </div>
+  </div>
+</section>
+
+<!-- LUXURY BANNER -->
+<div class="luxury-banner">
+  <div class="luxury-inner">
+    <div class="section-label">The MBEES Standard</div>
+    <blockquote>"We don't merely fabricate metal — we engineer the thresholds between vision and reality, crafting materials that carry the weight of architecture and the lightness of design."</blockquote>
+    <cite>— MBEES Craftsmanship Philosophy</cite>
+  </div>
+</div>
+
+<!-- MATERIALS STRIP -->
+<div class="materials-strip">
+  <div class="material-chip">
+    <div class="material-swatch" style="background: linear-gradient(135deg, #9B9B9B, #CFCFCF, #888);"></div>
+    <span>304-Grade Stainless Steel</span>
+  </div>
+  <div class="strip-divider"></div>
+  <div class="material-chip">
+    <div class="material-swatch" style="background: linear-gradient(135deg, #7A8A7A, #B8C4B8, #6A7A6A);"></div>
+    <span>316-Grade Marine Steel</span>
+  </div>
+  <div class="strip-divider"></div>
+  <div class="material-chip">
+    <div class="material-swatch" style="background: linear-gradient(135deg, #C9A84C, #E8C97A, #9A7A2E);"></div>
+    <span>PVD Gold Coating</span>
+  </div>
+  <div class="strip-divider"></div>
+  <div class="material-chip">
+    <div class="material-swatch" style="background: linear-gradient(135deg, #C49080, #DEB8A8, #A47060);"></div>
+    <span>PVD Rose Gold</span>
+  </div>
+  <div class="strip-divider"></div>
+  <div class="material-chip">
+    <div class="material-swatch" style="background: linear-gradient(135deg, #A8B0B8, #C8D4DC, #8898A4);"></div>
+    <span>Architectural Aluminium</span>
+  </div>
+  <div class="strip-divider"></div>
+  <div class="material-chip">
+    <div class="material-swatch" style="background: linear-gradient(135deg, rgba(180,210,230,0.6), rgba(210,230,240,0.8), rgba(160,190,210,0.5)); border: 1px solid rgba(180,220,240,0.5);"></div>
+    <span>Tempered Safety Glass</span>
+  </div>
+  <div class="strip-divider"></div>
+  <div class="material-chip">
+    <div class="material-swatch" style="background: linear-gradient(135deg, #5A5A5A, #888, #3A3A3A);"></div>
+    <span>Mild Steel (MS)</span>
+  </div>
+</div>
+
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-visual">
+    <div class="about-visual-frame">
+      <svg width="100%" height="100%" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+        <!-- Background texture -->
+        <rect width="400" height="500" fill="#1A1A1A"/>
+        <!-- Grid lines -->
+        <g stroke="rgba(201,168,76,0.06)" stroke-width="0.5">
+          <line x1="0" y1="100" x2="400" y2="100"/>
+          <line x1="0" y1="200" x2="400" y2="200"/>
+          <line x1="0" y1="300" x2="400" y2="300"/>
+          <line x1="0" y1="400" x2="400" y2="400"/>
+          <line x1="100" y1="0" x2="100" y2="500"/>
+          <line x1="200" y1="0" x2="200" y2="500"/>
+          <line x1="300" y1="0" x2="300" y2="500"/>
+        </g>
+        <!-- Abstract railing cross section -->
+        <rect x="60" y="60" width="280" height="380" fill="none" stroke="rgba(201,168,76,0.15)" stroke-width="1"/>
+        <!-- Post cross-sections -->
+        <circle cx="80" cy="120" r="12" fill="none" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+        <circle cx="80" cy="120" r="8" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="0.5"/>
+        <circle cx="80" cy="120" r="4" fill="rgba(201,168,76,0.3)"/>
+        <circle cx="80" cy="250" r="12" fill="none" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+        <circle cx="80" cy="250" r="8" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="0.5"/>
+        <circle cx="80" cy="250" r="4" fill="rgba(201,168,76,0.3)"/>
+        <circle cx="80" cy="380" r="12" fill="none" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+        <circle cx="80" cy="380" r="8" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.2)" stroke-width="0.5"/>
+        <circle cx="80" cy="380" r="4" fill="rgba(201,168,76,0.3)"/>
+        <!-- Dimension lines -->
+        <line x1="110" y1="120" x2="350" y2="120" stroke="rgba(201,168,76,0.25)" stroke-width="0.5" stroke-dasharray="4,3"/>
+        <line x1="110" y1="250" x2="350" y2="250" stroke="rgba(201,168,76,0.25)" stroke-width="0.5" stroke-dasharray="4,3"/>
+        <line x1="110" y1="380" x2="350" y2="380" stroke="rgba(201,168,76,0.25)" stroke-width="0.5" stroke-dasharray="4,3"/>
+        <!-- Labels -->
+        <text x="120" y="116" font-family="Montserrat, sans-serif" font-size="8" fill="rgba(201,168,76,0.5)" letter-spacing="1">TOP RAIL ⌀38mm</text>
+        <text x="120" y="246" font-family="Montserrat, sans-serif" font-size="8" fill="rgba(201,168,76,0.5)" letter-spacing="1">MID RAIL ⌀25mm</text>
+        <text x="120" y="376" font-family="Montserrat, sans-serif" font-size="8" fill="rgba(201,168,76,0.5)" letter-spacing="1">BASE PLATE</text>
+        <!-- Vertical measurement -->
+        <line x1="340" y1="120" x2="340" y2="380" stroke="rgba(201,168,76,0.2)" stroke-width="0.5"/>
+        <line x1="335" y1="120" x2="345" y2="120" stroke="rgba(201,168,76,0.3)" stroke-width="0.5"/>
+        <line x1="335" y1="380" x2="345" y2="380" stroke="rgba(201,168,76,0.3)" stroke-width="0.5"/>
+        <text x="350" y="255" font-family="Montserrat, sans-serif" font-size="7" fill="rgba(201,168,76,0.4)" letter-spacing="1">1100mm</text>
+        <!-- MBEES watermark -->
+        <text x="200" y="460" font-family="Cormorant Garamond, serif" font-size="48" fill="rgba(201,168,76,0.06)" text-anchor="middle" letter-spacing="8">MBEES</text>
+      </svg>
+    </div>
+    <div class="material-badges">
+      <span class="badge">304-Grade SS</span>
+      <span class="badge">316-Grade SS</span>
+      <span class="badge">PVD Gold</span>
+      <span class="badge">Architectural Aluminium</span>
+    </div>
+  </div>
+
+  <div class="about-content">
+    <div class="section-label">Our Legacy</div>
+    <h2 class="section-title">Precision Born from <em>Passion</em></h2>
+    <p class="section-desc">MBEES was founded on a singular belief: that the materials defining our built environment deserve the same attention to detail as the architecture they support. Over 15 years, we have developed expertise across steel, aluminum, and glass — delivering solutions to residential villas, corporate campuses, and industrial facilities across South India.</p>
+
+    <ul class="pillar-list">
+      <li>We source exclusively from certified steel mills with traceable 304 and 316-grade stock, ensuring every weld, bend, and finish meets international structural standards.</li>
+      <li>Our in-house PVD coating facility delivers durable gold, rose gold, and black finishes — not paints, but ionic-bonded surfaces that resist corrosion and UV degradation for decades.</li>
+      <li>Every project is managed from design drawing through site installation by our dedicated project engineers, ensuring zero gap between specification and execution.</li>
+      <li>We work closely with architects and interior designers, offering material samples, 3D mockups, and custom profile fabrication to realize any design vision.</li>
+    </ul>
+
+    <div class="about-stats">
+      <div class="about-stat">
+        <span class="about-stat-num">15+</span>
+        <span class="about-stat-label">Years in Business</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat-num">500+</span>
+        <span class="about-stat-label">Projects Completed</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat-num">20+</span>
+        <span class="about-stat-label">Material Certifications</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat-num">100%</span>
+        <span class="about-stat-label">Custom Fabrication</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-info">
+    <div class="section-label">Get in Touch</div>
+    <h2 class="section-title">Start Your <em>Project</em></h2>
+    <h3>"Every great architectural detail begins with a conversation. Tell us your vision and we'll engineer the reality."</h3>
+
+    <div class="contact-detail">
+      <div class="contact-item">
+        <div class="contact-item-icon">📍</div>
+        <div class="contact-item-text">
+          <strong>Headquarters</strong>
+          <p>MBEES Architectural Solutions<br>Abids Tilak Road, Telangana, India</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">📞</div>
+        <div class="contact-item-text">
+          <strong>Phone</strong>
+          <p>+91 9290094061<br>Mon–Sat, 9:00 AM – 6:00 PM</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">✉</div>
+        <div class="contact-item-text">
+          <strong>Email</strong>
+          <p>ummahmarketing@gmail.com<br>projects@mbees.in</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">◈</div>
+        <div class="contact-item-text">
+          <strong>Services Areas</strong>
+          <p>Andhra Pradesh · Telangana<br>Pan-India Projects Available</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="inquiry-form">
+    <div class="form-header">
+      <h3>Request a Quotation</h3>
+      <p>Fill in your project details and our team will respond within 24 hours.</p>
+    </div>
+    <div id="form-body">
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" placeholder="Rajesh">
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" placeholder="Kumar">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="rajesh@example.com">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="+91 98765 43210">
+        </div>
+        <div class="form-group full">
+          <label for="service">Service Required</label>
+          <select id="service">
+            <option value="" disabled selected>Select a service category…</option>
+            <optgroup label="Premium Railing Systems">
+              <option>MS Railing</option>
+              <option>Steel Railing</option>
+              <option>Steel & Glass Railing</option>
+              <option>Glass Railing</option>
+              <option>Wooden Railing</option>
+            </optgroup>
+            <optgroup label="Luxury Line">
+              <option>Gold Railing</option>
+              <option>Gold & Glass Railing</option>
+              <option>Rose Gold Finish</option>
+              <option>Aluminium Glass Railing</option>
+            </optgroup>
+            <optgroup label="Glass Solutions">
+              <option>Glass Partition</option>
+              <option>Glass Cubicle</option>
+              <option>Glass Doors</option>
+              <option>Glass Ghost Doors</option>
+            </optgroup>
+            <optgroup label="Aluminium Works">
+              <option>Aluminium Partition</option>
+              <option>Aluminium & Glass Facade</option>
+              <option>Aluminium Louvers</option>
+              <option>Aluminium Domal Windows</option>
+              <option>Aluminium Doors</option>
+              <option>Aluminium Cabins</option>
+              <option>Aluminium Rafters</option>
+              <option>Aluminium Profile Work</option>
+            </optgroup>
+            <optgroup label="Specialized Systems">
+              <option>Telescopic Sliding Doors</option>
+              <option>Bifolding Doors</option>
+              <option>Synchronized Sliding Doors</option>
+            </optgroup>
+            <optgroup label="Cladding">
+              <option>ACP Work</option>
+              <option>HPL Cladding</option>
+              <option>Kitchen Profile Systems</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="form-group full">
+          <label for="project-type">Project Type</label>
+          <select id="project-type">
+            <option value="" disabled selected>Select project type…</option>
+            <option>Residential — Villa / Bungalow</option>
+            <option>Residential — Apartment Complex</option>
+            <option>Commercial — Office Building</option>
+            <option>Commercial — Retail / Hospitality</option>
+            <option>Industrial — Factory / Warehouse</option>
+            <option>Institutional — Hospital / School</option>
+          </select>
+        </div>
+        <div class="form-group full">
+          <label for="message">Project Description</label>
+          <textarea id="message" rows="4" placeholder="Describe your project — dimensions, finish preferences, timeline, and any special requirements…"></textarea>
+        </div>
+        <div class="form-group full">
+          <label>Upload Blueprints or Site Photos (Optional)</label>
+          <div class="file-upload" onclick="document.getElementById('file-input').click()">
+            <input type="file" id="file-input" multiple accept=".pdf,.dwg,.jpg,.jpeg,.png" onchange="handleFile(this)">
+            <div class="file-upload-label">
+              <strong>Click to upload</strong> or drag & drop<br>
+              <span style="font-size:0.6rem; color:#666; margin-top:0.3rem; display:block;">PDF, DWG, JPG, PNG — Max 20MB per file</span>
+            </div>
+          </div>
+          <div id="file-list" style="margin-top:0.5rem; font-size:0.65rem; color:var(--gold);"></div>
+        </div>
+      </div>
+      <button class="form-submit" onclick="submitForm()">Submit Enquiry ›</button>
+    </div>
+    <div class="form-success" id="form-success">
+      <div class="success-icon">✓</div>
+      <h3 style="font-family: var(--font-serif); font-size: 1.4rem; font-weight: 300; color: var(--gold);">Enquiry Received</h3>
+      <p style="font-size: 0.75rem; color: var(--silver); line-height: 1.7; max-width: 320px;">Thank you for reaching out. Our project team will review your requirements and respond within 24 business hours.</p>
+      <div style="margin-top:1.5rem; font-size:0.6rem; letter-spacing:0.2em; color:var(--text-muted); text-transform:uppercase;">Reference: MBE-2025-<span id="ref-num"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════════════════════════════════
+     PORTFOLIO SECTION — Interactive Project Gallery
+     ════════════════════════════════════════════════════════ -->
+<section id="portfolio">
+
+  <div class="portfolio-header">
+    <div class="section-label">Project Showcase</div>
+    <h2 class="section-title">Our <em>Portfolio</em></h2>
+    <p>Every project in our portfolio represents a bespoke solution — engineered to specification, finished to perfection, and installed with precision across residential, commercial, and industrial settings.</p>
+  </div>
+
+  <!-- Filter Bar -->
+  <div class="pf-filter-bar" id="pf-filter-bar" role="group" aria-label="Filter projects by category">
+    <button class="pf-filter-btn pf-active" data-filter="All">All Projects</button>
+    <button class="pf-filter-btn" data-filter="Railings">Railings</button>
+    <button class="pf-filter-btn" data-filter="Glass Solutions">Glass Solutions</button>
+    <button class="pf-filter-btn" data-filter="Aluminum Systems">Aluminum Systems</button>
+    <button class="pf-filter-btn" data-filter="Cladding/Profiles">Cladding / Profiles</button>
+  </div>
+
+  <!-- Result count -->
+  <div class="pf-count-bar" id="pf-count-bar">
+    Showing <span id="pf-visible-count">0</span> projects
+  </div>
+
+  <!-- Project Grid (rendered by JS) -->
+  <div class="pf-grid" id="pf-grid" role="list">
+    <div class="pf-empty" id="pf-empty" role="status">
+      <div class="pf-empty-icon">◈</div>
+      <p>No projects found in this category.</p>
+    </div>
+  </div>
+
+  <!-- Load More -->
+  <div class="pf-load-more">
+    <button class="pf-load-btn" id="pf-load-btn" onclick="pfLoadMore()">Load More Projects</button>
+  </div>
+
+</section>
+
+<!-- ════════════════════════
+     PORTFOLIO MODAL
+     ════════════════════════ -->
+<div class="pf-modal-backdrop" id="pf-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="pf-modal-title-el">
+  <div class="pf-modal" id="pf-modal">
+
+    <button class="pf-modal-close" id="pf-modal-close" aria-label="Close modal">✕</button>
+
+    <!-- Image Pane -->
+    <div class="pf-modal-img-pane" id="pf-modal-img-pane">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- Info Pane -->
+    <div class="pf-modal-info">
+      <div>
+        <div class="pf-modal-cat-badge" id="pf-modal-cat"></div>
+        <h2 class="pf-modal-title" id="pf-modal-title-el"></h2>
+        <div class="pf-modal-divider"></div>
+        <p class="pf-modal-desc" id="pf-modal-desc"></p>
+        <div class="pf-modal-specs" id="pf-modal-specs"></div>
+      </div>
+      <button class="pf-modal-cta" id="pf-modal-cta" onclick="pfQuoteFromModal()">
+        Request a Quote for This Design ›
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="brand">MBEES</span>
+      <p>Engineering elegance across steel, glass, and aluminum since 2009. Precision-fabricated architectural hardware for discerning residential, commercial, and industrial projects across India.</p>
+      <div style="margin-top:1.5rem; display:flex; gap:0.75rem;">
+        <a href="#" style="width:36px; height:36px; border:1px solid rgba(201,168,76,0.2); display:flex; align-items:center; justify-content:center; color:var(--gold); font-size:0.7rem; text-decoration:none; transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.2)'">in</a>
+        <a href="#" style="width:36px; height:36px; border:1px solid rgba(201,168,76,0.2); display:flex; align-items:center; justify-content:center; color:var(--gold); font-size:0.7rem; text-decoration:none; transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.2)'">ig</a>
+        <a href="#" style="width:36px; height:36px; border:1px solid rgba(201,168,76,0.2); display:flex; align-items:center; justify-content:center; color:var(--gold); font-size:0.7rem; text-decoration:none; transition:all 0.3s;" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.2)'">wa</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Products</h5>
+      <ul>
+        <li><a href="#products">Railing Systems</a></li>
+        <li><a href="#products">Luxury Gold Line</a></li>
+        <li><a href="#products">Glass Solutions</a></li>
+        <li><a href="#products">Aluminium Works</a></li>
+        <li><a href="#products">Specialized Doors</a></li>
+        <li><a href="#products">Cladding Systems</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="#about">About MBEES</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#">Certifications</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Standards</h5>
+      <ul>
+        <li><a href="#">IS 304 / 316 Grade</a></li>
+        <li><a href="#">IS 2062 Mild Steel</a></li>
+        <li><a href="#">IS 6936 Aluminium</a></li>
+        <li><a href="#">BIS Certified Glass</a></li>
+        <li><a href="#">PVD Coating QC</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 MBEES Architectural Solutions. All rights reserved.</span>
+    <span>Crafted with <span>◈</span> in Andhra Pradesh, India</span>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Tab switching
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      this.classList.add('active');
+      document.getElementById('tab-' + this.dataset.tab).classList.add('active');
+    });
+  });
+
+  // File upload
+  function handleFile(input) {
+    const list = document.getElementById('file-list');
+    list.innerHTML = Array.from(input.files).map(f =>
+      `<div style="padding:0.3rem 0; border-bottom:1px solid rgba(201,168,76,0.1);">✓ ${f.name} <span style="color:var(--text-muted)">(${(f.size/1024).toFixed(0)} KB)</span></div>`
+    ).join('');
+  }
+
+  // ─────────────────────────────────────────────────────────────────
+  // FORMSPREE BACKEND INTEGRATION
+  // Step 1: Sign up free at formspree.io
+  // Step 2: Create a form, copy your endpoint URL
+  // Step 3: Paste it below replacing YOUR_FORMSPREE_ID
+  // Example: https://formspree.io/f/xyzabcde
+  // ─────────────────────────────────────────────────────────────────
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mvzypwzk';
+
+  async function submitForm() {
+    // ── Validate required fields ──
+    const required = ['fname','lname','email','phone'];
+    let valid = true;
+    required.forEach(id => {
+      const el = document.getElementById(id);
+      if (!el.value.trim()) {
+        el.style.borderColor = 'rgba(220,80,80,0.6)';
+        el.style.boxShadow   = '0 0 0 2px rgba(220,80,80,0.15)';
+        valid = false;
+      } else {
+        el.style.borderColor = 'rgba(255,255,255,0.08)';
+        el.style.boxShadow   = 'none';
+      }
+    });
+    if (!valid) {
+      // Scroll to first error
+      const firstErr = document.querySelector('input[style*="rgba(220,80,80"]');
+      if (firstErr) firstErr.scrollIntoView({ behavior:'smooth', block:'center' });
+      return;
+    }
+
+    // ── Show loading state on button ──
+    const btn = document.querySelector('.form-submit');
+    const originalText = btn.textContent;
+    btn.textContent = 'Sending…';
+    btn.disabled = true;
+    btn.style.opacity = '0.7';
+
+    // ── Build form data object ──
+    const formData = {
+      'First Name':    document.getElementById('fname').value.trim(),
+      'Last Name':     document.getElementById('lname').value.trim(),
+      'Email':         document.getElementById('email').value.trim(),
+      'Phone':         document.getElementById('phone').value.trim(),
+      'Service':       document.getElementById('service').value || 'Not specified',
+      'Project Type':  document.getElementById('project-type').value || 'Not specified',
+      'Message':       document.getElementById('message').value.trim() || 'No message provided',
+      '_subject':      `New MBEES Enquiry — ${document.getElementById('service').value || 'General'}`,
+      '_replyto':      document.getElementById('email').value.trim()
+    };
+
+    // ── Send to Formspree ──
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body:    JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        // ── Success ──
+        const refNum = Math.floor(1000 + Math.random() * 9000);
+        document.getElementById('form-body').style.display = 'none';
+        const successEl = document.getElementById('form-success');
+        successEl.classList.add('show');
+        document.getElementById('ref-num').textContent = refNum;
+
+        // Optional: push to Google Analytics if you add it later
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'form_submission', { event_category: 'Contact', event_label: 'MBEES Enquiry' });
+        }
+      } else {
+        // ── Formspree returned an error ──
+        const data = await response.json();
+        const msg  = data?.errors?.[0]?.message || 'Submission failed. Please try again.';
+        showFormError(msg);
+        resetBtn(btn, originalText);
+      }
+    } catch (err) {
+      // ── Network error (offline, wrong endpoint, etc.) ──
+      showFormError('Could not connect. Please check your internet and try again, or call us directly.');
+      resetBtn(btn, originalText);
+    }
+  }
+
+  function showFormError(msg) {
+    let errEl = document.getElementById('form-error-msg');
+    if (!errEl) {
+      errEl = document.createElement('div');
+      errEl.id = 'form-error-msg';
+      errEl.style.cssText = 'margin-top:1rem;padding:0.9rem 1rem;background:rgba(200,60,60,0.12);border:1px solid rgba(200,60,60,0.3);color:#e88;font-size:0.72rem;line-height:1.6;letter-spacing:0.03em;';
+      document.querySelector('.form-submit').after(errEl);
+    }
+    errEl.textContent = '⚠ ' + msg;
+    errEl.style.display = 'block';
+  }
+
+  function resetBtn(btn, text) {
+    btn.textContent  = text;
+    btn.disabled     = false;
+    btn.style.opacity = '1';
+  }
+
+  /* ════════════════════════════════════════════════════════════════
+   * MBEES PORTFOLIO — DATA + LOGIC
+   * ────────────────────────────────────────────────────────────────
+   * HOW TO EDIT: Update the projectsData array below.
+   * • imageUrl  → path to your image file, e.g. "images/railings/gold-1.jpg"
+   * • category  → must match one of: "Railings" | "Glass Solutions" |
+   *               "Aluminum Systems" | "Cladding/Profiles"
+   * • specs     → optional key-value pairs shown in the modal detail view
+   * ════════════════════════════════════════════════════════════════ */
+
+  const projectsData = [
+
+    /* ── RAILINGS ── */
+    {
+      id: 1,
+      title: "Gold & Glass Railing — Luxury Penthouse, Hyderabad",
+      category: "Railings",
+      imageUrl: "images\\Railing\\Gold Railing.png", // e.g. "images/railings/gold-glass-penthouse.jpg"
+      description: "Custom 316-grade stainless steel railing system with PVD gold finish and 12mm toughened ultra-clear glass infills. Designed for a sky-level penthouse with unobstructed views and a seamless connection between indoor and outdoor terraces.",
+      placeholderColor: "linear-gradient(135deg,#1A1512,#2A2018,#1A1512)",
+      placeholderIcon: "gold-railing",
+      specs: {
+        "Material":    "316-Grade Stainless Steel",
+        "Finish":      "PVD Gold",
+        "Glass":       "12mm Toughened Clear",
+        "Application": "Residential Penthouse",
+        "Location":    "Hyderabad, AP"
+      }
+    },
+    {
+      id: 2,
+      title: "Rose Gold Balcony Railing — Private Villa, Vijayawada",
+      category: "Railings",
+      imageUrl: "images\\Railing\\Rosegold1.png",
+      description: "Bespoke rose gold PVD-coated stainless steel railing with frameless glass panels for a contemporary private villa. The warm metallic tone was specified by the interior architect to complement the travertine stone terrace.",
+      placeholderColor: "linear-gradient(135deg,#1A1416,#261E20,#1A1416)",
+      placeholderIcon: "rose-railing",
+      specs: {
+        "Material":    "304-Grade Stainless Steel",
+        "Finish":      "PVD Rose Gold",
+        "Glass":       "10mm Laminated Clear",
+        "Application": "Residential Villa Balcony",
+        "Location":    "Vijayawada, AP"
+      }
+    },
+    {
+      id: 3,
+      title: "Minimalist Steel & Glass Staircase — Corporate HQ",
+      category: "Railings",
+      imageUrl: "images\\Railing\\stainless steel.png",
+      description: "Clean, architectural stainless steel post-and-glass railing system for an eight-storey corporate headquarters atrium staircase. Satin-brushed finish with patch-fixed 15mm toughened glass panels.",
+      placeholderColor: "linear-gradient(135deg,#101820,#182028,#101820)",
+      placeholderIcon: "steel-glass",
+      specs: {
+        "Material":    "304-Grade SS, Satin Brushed",
+        "Glass":       "15mm Toughened, Patch-Fixed",
+        "Application": "Commercial Atrium Staircase",
+        "Height":      "1100mm",
+        "Location":    "Hyderabad, TS"
+      }
+    },
+    {
+      id: 4,
+      title: "MS Powder-Coated Railing — Industrial Complex, Guntur",
+      category: "Railings",
+      imageUrl: "images\\Railing\\ms powder.png",
+      description: "Mild steel flat-bar and tube railing system with industrial-grade epoxy powder coat finish for a manufacturing facility. Designed to meet IS 800 structural requirements for heavy-duty industrial environments.",
+      placeholderColor: "linear-gradient(135deg,#181414,#241C1C,#181414)",
+      placeholderIcon: "ms-railing",
+      specs: {
+        "Material":    "Mild Steel (IS 2062)",
+        "Finish":      "Epoxy Powder Coat, RAL 7016",
+        "Application": "Industrial Platform Railing",
+        "Standard":    "IS 800 Compliant",
+        "Location":    "Guntur, AP"
+      }
+    },
+    {
+      id: 5,
+      title: "Wooden & Steel Hybrid Railing — Boutique Hotel, Vizag",
+      category: "Railings",
+      imageUrl: "images\\Railing\\Wooden Railing.png",
+      description: "Teak wood top-rail combined with vertical stainless steel cables for a coastal boutique hotel lobby. The design harmonises warm timber with industrial precision — each cable tensioned to 3kN for structural compliance.",
+      placeholderColor: "linear-gradient(135deg,#141210,#1E1A14,#141210)",
+      placeholderIcon: "wood-steel",
+      specs: {
+        "Top Rail":    "Solid Teak, Oiled Finish",
+        "Infill":      "Ø4mm SS316 Wire Cables",
+        "Post":        "SS316 Square Post, 40×40mm",
+        "Application": "Hospitality Lobby",
+        "Location":    "Visakhapatnam, AP"
+      }
+    },
+
+    /* ── GLASS SOLUTIONS ── */
+    {
+      id: 6,
+      title: "Acoustic Glass Partition — Corporate Office, Hyderabad",
+      category: "Glass Solutions",
+      imageUrl: "images\\Glass solutions\\glass partition 1.png",
+      description: "Soundproof acoustic laminated glass partition system with slim matte black aluminium profiles for an open-plan corporate office. The system achieves 42dB sound reduction while maintaining full-height visual transparency.",
+      placeholderColor: "linear-gradient(135deg,#121820,#1A2230,#121820)",
+      placeholderIcon: "glass-partition",
+      specs: {
+        "Glass":       "12.4mm Acoustic Laminated",
+        "Profile":     "Slim Aluminium, Matte Black",
+        "STC Rating":  "42dB",
+        "Application": "Open-Plan Office Partition",
+        "Location":    "Hyderabad, TS"
+      }
+    },
+    {
+      id: 7,
+      title: "Glass Cubicles — Bathroom, Hyderabad",
+      category: "Glass Solutions",
+      imageUrl: "images\\Glass solutions\\glass cubicle.png",
+      description: "Full-height glass cubicle system with integrated door hardware and frosted manifestation bands.",
+      placeholderColor: "linear-gradient(135deg,#0E1620,#162030,#0E1620)",
+      placeholderIcon: "glass-cubicle",
+      specs: {
+        "Glass":       "10mm Toughened Safety Glass",
+        "Manifestation":"Frosted Vinyl Bands",
+        "Hardware":    "Stainless Steel Patch Fittings",
+        "Application": "IT Campus Workspace",
+        "Location":    "HITEC City, Hyderabad"
+      }
+    },
+    {
+      id: 8,
+      title: "Pivot Glass Ghost Door — Luxury Residence",
+      category: "Glass Solutions",
+      imageUrl: "images\\Glass solutions\\pivot glass door.png",
+      description: "Concealed pivot glass ghost door system that disappears flush into the wall plane when open. The frameless 12mm toughened glass door with invisible hardware creates a seamless architectural flow between spaces.",
+      placeholderColor: "linear-gradient(135deg,#181620,#222030,#181620)",
+      placeholderIcon: "ghost-door",
+      specs: {
+        "Glass":       "12mm Toughened, Ultra-Clear",
+        "System":      "Concealed Pivot, Soss-Type",
+        "Finish":      "Hardware-Free Aesthetic",
+        "Application": "Luxury Residence Interior",
+        "Location":    "Amaravati, AP"
+      }
+    },
+    {
+      id: 9,
+      title: "Double Sliding Glass Door — Showroom, Vijayawada",
+      category: "Glass Solutions",
+      imageUrl: "images\\Glass solutions\\Double sliding glass door.png",
+      description: "Motorised double-leaf sliding glass entry door with soft-close mechanism and stainless steel pull handles for a luxury retail showroom. The 15mm toughened panes provide structural rigidity for high-traffic commercial entry.",
+      placeholderColor: "linear-gradient(135deg,#141618,#1E2228,#141618)",
+      placeholderIcon: "sliding-glass",
+      specs: {
+        "Glass":       "15mm Toughened Safety Glass",
+        "Operation":   "Motorised Sliding, Soft-Close",
+        "Handles":     "316 SS Bar Handles",
+        "Application": "Retail Showroom Entry",
+        "Location":    "Vijayawada, AP"
+      }
+    },
+
+    /* ── ALUMINUM SYSTEMS ── */
+    {
+      id: 10,
+      title: "Unitised Aluminium & Glass Facade — Tech Campus",
+      category: "Aluminum Systems",
+      imageUrl: "images\\Aluminium\\Aluminium glass Facade.png",
+      description: "Four-storey unitised curtain wall facade system with thermally broken aluminium frames and double-glazed low-E panels for a technology campus. The system achieves a U-value of 1.4 W/m²K for superior energy performance.",
+      placeholderColor: "linear-gradient(135deg,#121618,#1A2028,#121618)",
+      placeholderIcon: "facade",
+      specs: {
+        "System":      "Unitised Curtain Wall",
+        "Frame":       "Thermal Break Aluminium",
+        "Glazing":     "DGU with Low-E Coating",
+        "U-Value":     "1.4 W/m²K",
+        "Location":    "Amaravati, AP"
+      }
+    },
+    {
+      id: 11,
+      title: "Aluminium Louver Solar Screen — Hotel, Rajahmundry",
+      category: "Aluminum Systems",
+      imageUrl: "images\\Aluminium\\Aluminium Lovers.png",
+      description: "Horizontal fixed aluminium aerofoil louvre system for solar shading on the south and west elevations of a new-build hotel. The louvres are anodised in champagne bronze to complement the facade's warm material palette.",
+      placeholderColor: "linear-gradient(135deg,#181A14,#22241A,#181A14)",
+      placeholderIcon: "louver",
+      specs: {
+        "Profile":     "Aerofoil Aluminium, 200mm",
+        "Finish":      "Anodised Champagne Bronze",
+        "Function":    "Fixed Solar Shading",
+        "Application": "Hospitality Facade",
+        "Location":    "Rajahmundry, AP"
+      }
+    },
+    {
+      id: 12,
+      title: "Bifolding Aluminium Doors — Beach Residence, Vizag",
+      category: "Aluminum Systems",
+      imageUrl: "images\\Aluminium\\bifolding aluminium door.png",
+      description: "Six-panel aluminium bifolding door system creating an 4.8m opening between the living room and seafront terrace. Marine-grade powder coat finish specified for the high-humidity coastal environment.",
+      placeholderColor: "linear-gradient(135deg,#141820,#1C2228,#141820)",
+      placeholderIcon: "bifold",
+      specs: {
+        "System":      "6-Panel Bifolding",
+        "Opening":     "4.8m Clear Width",
+        "Finish":      "Marine Powder Coat",
+        "Seal":        "Triple Neoprene Weather Seal",
+        "Location":    "Visakhapatnam, AP"
+      }
+    },
+    {
+      id: 13,
+      title: "Telescopic Sliding Partitions — Banquet Hall, Hyderabad",
+      category: "Aluminum Systems",
+      imageUrl: "images\\Aluminium\\Telescopic sliding.png",
+      description: "Five-panel motorised telescopic sliding partition system dividing a 600-seat banquet hall into three independently operable zones. Each panel is acoustic-rated at 38dB and stacks into a 900mm pocket in under 30 seconds.",
+      placeholderColor: "linear-gradient(135deg,#181414,#221C1C,#181414)",
+      placeholderIcon: "telescopic",
+      specs: {
+        "Panels":      "5-Panel Motorised Telescopic",
+        "STC Rating":  "38dB per Panel",
+        "Stack Depth": "900mm Pocket",
+        "Operation":   "Automated, App-Controlled",
+        "Location":    "Hyderabad, TS"
+      }
+    },
+    {
+      id: 14,
+      title: "Aluminum System Window — Residential Tower, Guntur",
+      category: "Aluminum Systems",
+      imageUrl: "images\\Aluminium\\Aluminium System window.png",
+      description: "Heavy-duty aluminium window system across 18 residential floors, featuring multi-point locking hardware, EPDM weather seals, and 6+12+6mm argon-filled double glazing for thermal and acoustic performance.",
+      placeholderColor: "linear-gradient(135deg,#141618,#1C2020,#141618)",
+      placeholderIcon: "window",
+      specs: {
+        "Profile":     "Domal Series, 100mm Deep",
+        "Glazing":     "6+12+6mm Argon DGU",
+        "Locking":     "Multi-Point Hardware",
+        "Application": "18-Storey Residential",
+        "Location":    "Guntur, AP"
+      }
+    },
+
+    /* ── CLADDING / PROFILES ── */
+    {
+      id: 15,
+      title: "ACP Facade Cladding — Commercial Complex, Vijayawada",
+      category: "Cladding/Profiles",
+      imageUrl: "images\\Cladding\\ACP cladding.png",
+      description: "Aluminium composite panel cladding system covering 3,200m² of a multi-use commercial development. The panels are finished in a brushed champagne metallic colour with shadow-gap reveals that give the facade depth and texture at street level.",
+      placeholderColor: "linear-gradient(135deg,#1A1A18,#252520,#1A1A18)",
+      placeholderIcon: "acp",
+      specs: {
+        "System":      "ACP, 4mm Aluminium Composite",
+        "Finish":      "Brushed Champagne Metallic",
+        "Area":        "3,200 m²",
+        "Fixing":      "Concealed Riveted Sub-Frame",
+        "Location":    "Vijayawada, AP"
+      }
+    },
+    {
+      id: 16,
+      title: "HPL Exterior Cladding — School Campus, Eluru",
+      category: "Cladding/Profiles",
+      imageUrl: "images\\Cladding\\HPL exterior cladding.png",
+      description: "High-pressure laminate exterior cladding system in a woodgrain finish for a school campus renovation. HPL panels provide exceptional impact resistance and UV stability — ideal for high-footfall educational environments.",
+      placeholderColor: "linear-gradient(135deg,#141210,#1E1A14,#141210)",
+      placeholderIcon: "hpl",
+      specs: {
+        "Panel":       "HPL 8mm, Woodgrain Texture",
+        "UV Rating":   "Class 1 Exterior Grade",
+        "Impact":      "IK10 Rated",
+        "Application": "Educational Campus",
+        "Location":    "Eluru, AP"
+      }
+    },
+    {
+      id: 17,
+      title: "Aluminium Kitchen Profile System — Luxury Apartments",
+      category: "Cladding/Profiles",
+      imageUrl: "images\\Cladding\\kitchen profile.png",
+      description: "Custom extruded aluminium profile system for 48 luxury apartment kitchens — incorporating handleless push-to-open profiles, LED channel profiles for under-cabinet lighting, and toe-kick reveal sections in matte black anodised finish.",
+      placeholderColor: "linear-gradient(135deg,#181818,#222222,#181818)",
+      placeholderIcon: "kitchen",
+      specs: {
+        "Profiles":    "Handleless + LED Channel + Toe-Kick",
+        "Finish":      "Matte Black Anodised",
+        "Units":       "48 Luxury Apartments",
+        "Extrusion":   "Custom Bespoke Design",
+        "Location":    "Hyderabad, TS"
+      }
+    },
+    {
+      id: 18,
+      title: "Rainscreen ACP Cladding — Hospital, Nellore",
+      category: "Cladding/Profiles",
+      imageUrl: "images\\Cladding\\Rainscreen cladding .png",
+      description: "Ventilated rainscreen ACP cladding system for a 200-bed hospital facade. The system features a drained and ventilated cavity for moisture management, with panels in a clean white finish to reinforce the healthcare brand identity.",
+      placeholderColor: "linear-gradient(135deg,#181A1A,#222828,#181A1A)",
+      placeholderIcon: "rainscreen",
+      specs: {
+        "System":      "Ventilated Rainscreen ACP",
+        "Finish":      "Pure White Matt",
+        "Cavity":      "50mm Drained Ventilated",
+        "Application": "Healthcare Facade",
+        "Location":    "Nellore, AP"
+      }
+    }
+  ]; /* ── END projectsData ─────────────────────────── */
+
+
+  /* ════════════════════════════
+   * PORTFOLIO LOGIC
+   * ════════════════════════════ */
+
+  // Placeholder SVG visuals keyed by placeholderIcon string
+  const pfPlaceholders = {
+    "gold-railing": `<svg width="80" height="120" viewBox="0 0 80 120"><rect x="5" y="10" width="70" height="100" fill="rgba(201,168,76,0.07)" stroke="rgba(201,168,76,0.35)" stroke-width="1.2"/><rect x="0" y="8" width="80" height="6" fill="rgba(201,168,76,0.55)" rx="1"/><rect x="0" y="106" width="80" height="6" fill="rgba(201,168,76,0.55)" rx="1"/><rect x="0" y="8" width="6" height="104" fill="rgba(201,168,76,0.45)" rx="1"/><rect x="74" y="8" width="6" height="104" fill="rgba(201,168,76,0.45)" rx="1"/><rect x="2" y="9" width="4" height="102" fill="rgba(255,255,255,0.07)" rx="1"/></svg>`,
+    "rose-railing": `<svg width="80" height="90" viewBox="0 0 80 90"><rect x="0" y="0" width="80" height="6" fill="rgba(196,144,128,0.6)" rx="1"/><rect x="0" y="84" width="80" height="6" fill="rgba(196,144,128,0.6)" rx="1"/><rect x="0" y="0" width="5" height="90" fill="rgba(196,144,128,0.5)" rx="1"/><rect x="37" y="0" width="5" height="90" fill="rgba(196,144,128,0.5)" rx="1"/><rect x="75" y="0" width="5" height="90" fill="rgba(196,144,128,0.5)" rx="1"/><rect x="5" y="6" width="32" height="78" fill="rgba(180,220,240,0.05)" stroke="rgba(196,144,128,0.2)" stroke-width="0.5"/><rect x="42" y="6" width="33" height="78" fill="rgba(180,220,240,0.05)" stroke="rgba(196,144,128,0.2)" stroke-width="0.5"/></svg>`,
+    "steel-glass":  `<svg width="100" height="80" viewBox="0 0 100 80"><line x1="0" y1="80" x2="100" y2="10" stroke="rgba(201,168,76,0.3)" stroke-width="1"/><rect x="5" y="65" width="7" height="16" fill="rgba(201,168,76,0.45)" rx="1"/><rect x="22" y="52" width="7" height="29" fill="rgba(201,168,76,0.45)" rx="1"/><rect x="39" y="39" width="7" height="42" fill="rgba(201,168,76,0.45)" rx="1"/><rect x="56" y="26" width="7" height="55" fill="rgba(201,168,76,0.45)" rx="1"/><rect x="73" y="13" width="7" height="68" fill="rgba(201,168,76,0.45)" rx="1"/></svg>`,
+    "ms-railing":   `<svg width="80" height="80" viewBox="0 0 80 80"><rect x="0" y="0" width="80" height="5" fill="rgba(150,150,150,0.5)" rx="1"/><rect x="0" y="75" width="80" height="5" fill="rgba(150,150,150,0.5)" rx="1"/><rect x="0" y="0" width="5" height="80" fill="rgba(150,150,150,0.45)" rx="1"/><rect x="37" y="0" width="5" height="80" fill="rgba(150,150,150,0.45)" rx="1"/><rect x="75" y="0" width="5" height="80" fill="rgba(150,150,150,0.45)" rx="1"/><rect x="5" y="30" width="32" height="3" fill="rgba(150,150,150,0.3)"/><rect x="42" y="30" width="33" height="3" fill="rgba(150,150,150,0.3)"/></svg>`,
+    "wood-steel":   `<svg width="90" height="70" viewBox="0 0 90 70"><rect x="0" y="0" width="90" height="7" rx="3" fill="rgba(160,120,80,0.5)"/><rect x="0" y="63" width="90" height="7" rx="3" fill="rgba(160,120,80,0.3)"/><line x1="12" y1="7" x2="12" y2="63" stroke="rgba(200,200,200,0.35)" stroke-width="1.5"/><line x1="24" y1="7" x2="24" y2="63" stroke="rgba(200,200,200,0.35)" stroke-width="1.5"/><line x1="36" y1="7" x2="36" y2="63" stroke="rgba(200,200,200,0.35)" stroke-width="1.5"/><line x1="48" y1="7" x2="48" y2="63" stroke="rgba(200,200,200,0.35)" stroke-width="1.5"/><line x1="60" y1="7" x2="60" y2="63" stroke="rgba(200,200,200,0.35)" stroke-width="1.5"/><line x1="72" y1="7" x2="72" y2="63" stroke="rgba(200,200,200,0.35)" stroke-width="1.5"/></svg>`,
+    "glass-partition":`<svg width="100" height="70" viewBox="0 0 100 70"><rect x="0" y="0" width="30" height="70" fill="rgba(180,220,240,0.07)" stroke="rgba(180,220,240,0.22)" stroke-width="0.8"/><rect x="35" y="0" width="30" height="70" fill="rgba(180,220,240,0.09)" stroke="rgba(180,220,240,0.22)" stroke-width="0.8"/><rect x="70" y="0" width="30" height="70" fill="rgba(180,220,240,0.07)" stroke="rgba(180,220,240,0.22)" stroke-width="0.8"/><rect x="10" y="5" width="8" height="60" fill="rgba(255,255,255,0.04)"/><rect x="45" y="5" width="8" height="60" fill="rgba(255,255,255,0.04)"/></svg>`,
+    "glass-cubicle":`<svg width="90" height="80" viewBox="0 0 90 80"><rect x="0" y="0" width="90" height="80" fill="rgba(180,220,240,0.04)" stroke="rgba(180,220,240,0.18)" stroke-width="0.8"/><rect x="0" y="55" width="40" height="25" fill="rgba(180,220,240,0.08)" stroke="rgba(180,220,240,0.3)" stroke-width="0.8"/><circle cx="38" cy="67" r="3" fill="rgba(200,200,200,0.3)"/></svg>`,
+    "ghost-door":   `<svg width="60" height="100" viewBox="0 0 60 100"><rect x="5" y="0" width="50" height="100" fill="rgba(180,220,240,0.07)" stroke="rgba(180,220,240,0.2)" stroke-width="0.8"/><line x1="5" y1="50" x2="55" y2="50" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/><line x1="30" y1="0" x2="30" y2="100" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/><circle cx="48" cy="50" r="3" fill="rgba(201,168,76,0.3)"/></svg>`,
+    "sliding-glass":`<svg width="110" height="70" viewBox="0 0 110 70"><rect x="0" y="0" width="52" height="70" fill="rgba(180,220,240,0.07)" stroke="rgba(180,220,240,0.2)" stroke-width="0.8"/><rect x="58" y="0" width="52" height="70" fill="rgba(180,220,240,0.09)" stroke="rgba(180,220,240,0.2)" stroke-width="0.8"/><rect x="2" y="0" width="48" height="4" fill="rgba(200,200,200,0.15)"/><rect x="60" y="66" width="48" height="4" fill="rgba(200,200,200,0.15)"/></svg>`,
+    "facade":       `<svg width="100" height="80" viewBox="0 0 100 80"><rect x="0" y="0" width="24" height="19" fill="rgba(180,220,240,0.08)" stroke="rgba(180,220,240,0.18)" stroke-width="0.5"/><rect x="26" y="0" width="24" height="19" fill="rgba(180,220,240,0.06)" stroke="rgba(180,220,240,0.18)" stroke-width="0.5"/><rect x="52" y="0" width="24" height="19" fill="rgba(180,220,240,0.09)" stroke="rgba(180,220,240,0.18)" stroke-width="0.5"/><rect x="78" y="0" width="22" height="19" fill="rgba(180,220,240,0.07)" stroke="rgba(180,220,240,0.18)" stroke-width="0.5"/><rect x="0" y="21" width="24" height="19" fill="rgba(180,220,240,0.06)" stroke="rgba(180,220,240,0.18)" stroke-width="0.5"/><rect x="26" y="21" width="24" height="19" fill="rgba(180,220,240,0.08)" stroke="rgba(180,220,240,0.18)" stroke-width="0.5"/><rect x="52" y="21" width="24" height="19" fill="rgba(180,220,240,0.07)" stroke="rgba(180,220,240,0.18)" stroke-width="0.5"/><rect x="78" y="21" width="22" height="19" fill="rgba(180,220,240,0.09)" stroke="rgba(180,220,240,0.18)" stroke-width="0.5"/><rect x="0" y="42" width="24" height="19" fill="rgba(201,168,76,0.06)" stroke="rgba(201,168,76,0.15)" stroke-width="0.5"/><rect x="26" y="42" width="24" height="19" fill="rgba(201,168,76,0.04)" stroke="rgba(201,168,76,0.15)" stroke-width="0.5"/><rect x="52" y="42" width="24" height="19" fill="rgba(201,168,76,0.07)" stroke="rgba(201,168,76,0.15)" stroke-width="0.5"/><rect x="78" y="42" width="22" height="19" fill="rgba(201,168,76,0.05)" stroke="rgba(201,168,76,0.15)" stroke-width="0.5"/><rect x="0" y="62" width="100" height="18" fill="rgba(160,160,150,0.1)" stroke="rgba(160,160,150,0.2)" stroke-width="0.5"/></svg>`,
+    "louver":       `<svg width="90" height="70" viewBox="0 0 90 70"><rect x="0" y="0" width="90" height="9" fill="rgba(180,190,200,0.22)" stroke="rgba(180,190,200,0.15)" stroke-width="0.5"/><rect x="0" y="15" width="90" height="9" fill="rgba(180,190,200,0.18)" stroke="rgba(180,190,200,0.15)" stroke-width="0.5"/><rect x="0" y="30" width="90" height="9" fill="rgba(180,190,200,0.22)" stroke="rgba(180,190,200,0.15)" stroke-width="0.5"/><rect x="0" y="45" width="90" height="9" fill="rgba(180,190,200,0.18)" stroke="rgba(180,190,200,0.15)" stroke-width="0.5"/><rect x="0" y="60" width="90" height="9" fill="rgba(180,190,200,0.22)" stroke="rgba(180,190,200,0.15)" stroke-width="0.5"/></svg>`,
+    "bifold":       `<svg width="110" height="70" viewBox="0 0 110 70"><rect x="0" y="0" width="17" height="70" fill="rgba(160,170,180,0.12)" stroke="rgba(160,170,180,0.2)" stroke-width="0.5"/><line x1="17" y1="35" x2="35" y2="0" stroke="rgba(160,170,180,0.3)" stroke-width="0.5"/><rect x="35" y="0" width="18" height="70" fill="rgba(160,170,180,0.09)" stroke="rgba(160,170,180,0.2)" stroke-width="0.5"/><line x1="53" y1="35" x2="71" y2="70" stroke="rgba(160,170,180,0.3)" stroke-width="0.5"/><rect x="71" y="0" width="18" height="70" fill="rgba(160,170,180,0.12)" stroke="rgba(160,170,180,0.2)" stroke-width="0.5"/><line x1="89" y1="35" x2="110" y2="0" stroke="rgba(160,170,180,0.3)" stroke-width="0.5"/></svg>`,
+    "telescopic":   `<svg width="110" height="70" viewBox="0 0 110 70"><rect x="0" y="0" width="20" height="70" fill="rgba(160,170,180,0.1)" stroke="rgba(160,170,180,0.2)" stroke-width="0.5"/><rect x="23" y="0" width="20" height="70" fill="rgba(160,170,180,0.12)" stroke="rgba(160,170,180,0.2)" stroke-width="0.5"/><rect x="46" y="0" width="20" height="70" fill="rgba(160,170,180,0.09)" stroke="rgba(160,170,180,0.2)" stroke-width="0.5"/><rect x="69" y="0" width="20" height="70" fill="rgba(160,170,180,0.12)" stroke="rgba(160,170,180,0.2)" stroke-width="0.5"/><rect x="92" y="0" width="18" height="70" fill="rgba(160,170,180,0.1)" stroke="rgba(160,170,180,0.2)" stroke-width="0.5"/></svg>`,
+    "window":       `<svg width="70" height="80" viewBox="0 0 70 80"><rect x="0" y="0" width="70" height="80" fill="rgba(180,220,240,0.06)" stroke="rgba(160,170,180,0.3)" stroke-width="1.5"/><line x1="35" y1="0" x2="35" y2="80" stroke="rgba(160,170,180,0.3)" stroke-width="1.5"/><line x1="0" y1="40" x2="70" y2="40" stroke="rgba(160,170,180,0.3)" stroke-width="1.5"/><rect x="4" y="4" width="27" height="32" fill="rgba(180,220,240,0.05)"/><rect x="39" y="4" width="27" height="32" fill="rgba(180,220,240,0.07)"/></svg>`,
+    "acp":          `<svg width="100" height="80" viewBox="0 0 100 80"><rect x="2" y="2" width="22" height="18" fill="rgba(160,160,150,0.17)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/><rect x="28" y="2" width="22" height="18" fill="rgba(160,160,150,0.12)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/><rect x="54" y="2" width="22" height="18" fill="rgba(160,160,150,0.17)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/><rect x="80" y="2" width="18" height="18" fill="rgba(160,160,150,0.12)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/><rect x="2" y="24" width="22" height="18" fill="rgba(160,160,150,0.12)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/><rect x="28" y="24" width="22" height="18" fill="rgba(160,160,150,0.17)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/><rect x="54" y="24" width="22" height="18" fill="rgba(160,160,150,0.12)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/><rect x="80" y="24" width="18" height="18" fill="rgba(160,160,150,0.17)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/><rect x="2" y="46" width="96" height="18" fill="rgba(201,168,76,0.07)" stroke="rgba(201,168,76,0.15)" stroke-width="0.5"/><rect x="2" y="68" width="44" height="10" fill="rgba(160,160,150,0.12)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/><rect x="54" y="68" width="44" height="10" fill="rgba(160,160,150,0.15)" stroke="rgba(160,160,150,0.28)" stroke-width="0.5"/></svg>`,
+    "hpl":          `<svg width="90" height="80" viewBox="0 0 90 80"><rect x="0" y="0" width="90" height="80" fill="rgba(140,110,70,0.08)"/><line x1="0" y1="10" x2="90" y2="10" stroke="rgba(140,110,70,0.2)" stroke-width="0.5"/><line x1="0" y1="22" x2="90" y2="22" stroke="rgba(140,110,70,0.15)" stroke-width="0.5"/><line x1="0" y1="34" x2="90" y2="34" stroke="rgba(140,110,70,0.2)" stroke-width="0.5"/><line x1="0" y1="46" x2="90" y2="46" stroke="rgba(140,110,70,0.15)" stroke-width="0.5"/><line x1="0" y1="58" x2="90" y2="58" stroke="rgba(140,110,70,0.2)" stroke-width="0.5"/><line x1="0" y1="70" x2="90" y2="70" stroke="rgba(140,110,70,0.15)" stroke-width="0.5"/><line x1="20" y1="0" x2="20" y2="80" stroke="rgba(140,110,70,0.08)" stroke-width="0.5"/><line x1="55" y1="0" x2="55" y2="80" stroke="rgba(140,110,70,0.08)" stroke-width="0.5"/></svg>`,
+    "kitchen":      `<svg width="100" height="70" viewBox="0 0 100 70"><rect x="0" y="0" width="100" height="70" fill="rgba(30,30,30,0.8)" stroke="rgba(100,100,100,0.2)" stroke-width="0.5"/><rect x="5" y="5" width="40" height="28" fill="rgba(50,50,50,0.6)" stroke="rgba(80,80,80,0.3)" stroke-width="0.5"/><rect x="55" y="5" width="40" height="28" fill="rgba(50,50,50,0.6)" stroke="rgba(80,80,80,0.3)" stroke-width="0.5"/><rect x="5" y="40" width="90" height="25" fill="rgba(60,60,60,0.5)" stroke="rgba(80,80,80,0.3)" stroke-width="0.5"/><rect x="0" y="35" width="100" height="5" fill="rgba(201,168,76,0.15)"/></svg>`,
+    "rainscreen":   `<svg width="100" height="80" viewBox="0 0 100 80"><rect x="0" y="0" width="46" height="36" fill="rgba(240,240,240,0.12)" stroke="rgba(200,200,200,0.2)" stroke-width="0.5"/><rect x="54" y="0" width="46" height="36" fill="rgba(240,240,240,0.1)" stroke="rgba(200,200,200,0.2)" stroke-width="0.5"/><rect x="0" y="44" width="46" height="36" fill="rgba(240,240,240,0.1)" stroke="rgba(200,200,200,0.2)" stroke-width="0.5"/><rect x="54" y="44" width="46" height="36" fill="rgba(240,240,240,0.12)" stroke="rgba(200,200,200,0.2)" stroke-width="0.5"/></svg>`
+  };
+
+  // ════════════════════════════════════════════════════════════════════
+  // PORTFOLIO — STATE
+  // ════════════════════════════════════════════════════════════════════
+  let pfCurrentFilter = 'All';
+  let pfVisibleCount  = 9;          // initial cards shown (3×3 grid)
+  const PF_PAGE_SIZE  = 6;
+  let pfActiveModalId = null;
+
+  // ── Helpers ─────────────────────────────────────────────────────────
+  function pfGetFiltered() {
+    return pfCurrentFilter === 'All'
+      ? projectsData
+      : projectsData.filter(p => p.category === pfCurrentFilter);
+  }
+
+  // ── Build a placeholder DOM element (no real image) ─────────────────
+  function pfBuildPlaceholderEl(p) {
+    const svg = pfPlaceholders[p.placeholderIcon] ||
+      '<svg width="52" height="52" viewBox="0 0 52 52">' +
+      '<rect x="8" y="8" width="36" height="36" fill="none" ' +
+      'stroke="rgba(189,176,120,0.35)" stroke-width="1.2"/></svg>';
+    const el = document.createElement('div');
+    el.className = 'pf-card__placeholder';
+    el.style.background = p.placeholderColor;
+    el.innerHTML = svg +
+      '<div style="font-size:0.5rem;letter-spacing:0.28em;text-transform:uppercase;' +
+      'color:rgba(189,176,120,0.45);">' + p.category + '</div>';
+    return el;
+  }
+
+  // ── Build one card DOM element ───────────────────────────────────────
+  // All styles are inline — no dependency on CSS class timing.
+  function pfMakeCard(p) {
+    const card = document.createElement('div');
+    card.className = 'pf-card';
+    card.setAttribute('role', 'article');
+    card.setAttribute('tabindex', '0');
+    card.dataset.id       = p.id;
+    card.dataset.category = p.category;
+    card.setAttribute('aria-label', p.title);
+
+    // ── 1. Image or placeholder ─────────────────────────────────────
+    if (p.imageUrl) {
+      const img = document.createElement('img');
+      img.src   = p.imageUrl;
+      img.alt   = p.title;
+      img.className = 'pf-card__img';
+      img.addEventListener('error', function() {
+        this.remove();
+        card.insertBefore(pfBuildPlaceholderEl(p), card.firstChild);
+      });
+      card.appendChild(img);
+    } else {
+      card.appendChild(pfBuildPlaceholderEl(p));
+    }
+
+    // ── 2. Permanent bottom label (slides away on hover) ────────────
+    const label = document.createElement('div');
+    label.className = 'pf-card__label';
+    label.innerHTML =
+      '<div class="pf-card__badge">' + p.category + '</div>' +
+      '<div class="pf-card__title">' + p.title + '</div>';
+    card.appendChild(label);
+
+    // ── 3. Hover overlay (slides up from bottom) ─────────────────────
+    // Truncate description to ~120 chars for card preview
+    const shortDesc = p.description.length > 120
+      ? p.description.slice(0, 118) + '…'
+      : p.description;
+
+    const overlay = document.createElement('div');
+    overlay.className = 'pf-card__overlay';
+    overlay.innerHTML =
+      '<div class="pf-overlay__cat">'   + p.category + '</div>' +
+      '<div class="pf-overlay__title">' + p.title    + '</div>' +
+      '<div class="pf-overlay__divider"></div>' +
+      '<p class="pf-overlay__desc">'    + shortDesc  + '</p>' +
+      '<button class="pf-overlay__cta">View Details</button>';
+    card.appendChild(overlay);
+
+    // ── 4. Hover interactions (JS-driven for reliability) ────────────
+    function onEnter() {
+      card.classList.add('is-hovered');
+    }
+    function onLeave() {
+      card.classList.remove('is-hovered');
+    }
+
+    card.addEventListener('mouseenter', onEnter);
+    card.addEventListener('mouseleave', onLeave);
+
+    // Touch support — toggle on tap
+    card.addEventListener('touchstart', function(e) {
+      if (card.classList.contains('is-hovered')) {
+        onLeave();
+      } else {
+        e.preventDefault();
+        onEnter();
+      }
+    }, { passive: false });
+
+    // ── 5. Open modal on click / enter ────────────────────────────────
+    const openModal = (e) => {
+      // Don't open modal if tapping to reveal overlay on mobile
+      if (e.type === 'click' && card.classList.contains('is-hovered') &&
+          window.matchMedia('(hover: none)').matches) return;
+      pfOpenModal(p.id);
+    };
+
+    card.addEventListener('click', () => pfOpenModal(p.id));
+    card.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pfOpenModal(p.id); }
+    });
+
+    return card;
+  }
+
+  // ════════════════════════════════════════════════════════════════════
+  // pfRender — clears grid, applies filter, injects cards
+  // ════════════════════════════════════════════════════════════════════
+  function pfRender() {
+    const grid    = document.getElementById('pf-grid');
+    const empty   = document.getElementById('pf-empty');
+    const loadBtn = document.getElementById('pf-load-btn');
+    const countEl = document.getElementById('pf-visible-count');
+
+    if (!grid) return; // DOM not ready guard
+
+    const filtered = pfGetFiltered();
+
+    // Clear
+    grid.innerHTML = '';
+
+    if (filtered.length === 0) {
+      if (empty) { grid.appendChild(empty); empty.classList.add('show'); }
+      if (loadBtn) loadBtn.style.display = 'none';
+      return;
+    }
+
+    if (empty) empty.classList.remove('show');
+
+    const toShow = filtered.slice(0, pfVisibleCount);
+
+    // Insert cards with staggered fade-in
+    toShow.forEach((p, i) => {
+      const card = pfMakeCard(p);
+      // Start invisible
+      card.style.opacity   = '0';
+      card.style.transform = 'translateY(20px)';
+      grid.appendChild(card);
+
+      // Stagger reveal
+      setTimeout(() => {
+        card.style.transition = 'opacity 0.35s ease, transform 0.35s ease, box-shadow 0.32s ease';
+        card.style.opacity    = '1';
+        card.style.transform  = 'translateY(0)';
+      }, i * 55);
+    });
+
+    if (countEl) countEl.textContent = toShow.length;
+    if (loadBtn) {
+      loadBtn.style.display = pfVisibleCount >= filtered.length ? 'none' : 'inline-block';
+    }
+  }
+
+  // ── Load more ────────────────────────────────────────────────────────
+  function pfLoadMore() {
+    pfVisibleCount += PF_PAGE_SIZE;
+    pfRender();
+  }
+
+  // ════════════════════════════════════════════════════════════════════
+  // FILTER BAR — click handler
+  // ════════════════════════════════════════════════════════════════════
+  const pfFilterBar = document.getElementById('pf-filter-bar');
+  if (pfFilterBar) {
+    pfFilterBar.addEventListener('click', function(e) {
+      const btn = e.target.closest('.pf-filter-btn');
+      if (!btn) return;
+
+      // Update active button
+      document.querySelectorAll('.pf-filter-btn').forEach(b => b.classList.remove('pf-active'));
+      btn.classList.add('pf-active');
+
+      // Update state and re-render
+      pfCurrentFilter = btn.dataset.filter;
+      pfVisibleCount  = 9;
+      pfRender();
+    });
+  }
+
+  // ════════════════════════════════════════════════════════════════════
+  // MODAL — open
+  // ════════════════════════════════════════════════════════════════════
+  function pfOpenModal(id) {
+    const p = projectsData.find(x => x.id === id);
+    if (!p) return;
+    pfActiveModalId = id;
+    document.body.style.overflow = 'hidden';
+
+    // ── Image pane ────────────────────────────────────────────────────
+    const imgPane = document.getElementById('pf-modal-img-pane');
+    if (imgPane) {
+      imgPane.style.cssText = 'position:relative;min-height:480px;background:#1a1a1a;overflow:hidden;display:flex;align-items:stretch;';
+      imgPane.innerHTML = '';
+
+      if (p.imageUrl) {
+        const img = document.createElement('img');
+        img.src   = p.imageUrl;
+        img.alt   = p.title;
+        img.style.cssText = 'position:absolute;inset:0;top:0;left:0;right:0;bottom:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block;';
+        img.addEventListener('error', function() {
+          this.remove();
+          imgPane.appendChild(pfBuildModalPlaceholder(p));
+        });
+        imgPane.appendChild(img);
+      } else {
+        imgPane.appendChild(pfBuildModalPlaceholder(p));
+      }
+    }
+
+    // ── Info pane ────────────────────────────────────────────────────
+    const catEl   = document.getElementById('pf-modal-cat');
+    const titleEl = document.getElementById('pf-modal-title-el');
+    const descEl  = document.getElementById('pf-modal-desc');
+    const specsEl = document.getElementById('pf-modal-specs');
+    const ctaEl   = document.getElementById('pf-modal-cta');
+
+    if (catEl)   catEl.textContent   = p.category;
+    if (titleEl) titleEl.textContent = p.title;
+    if (descEl)  descEl.textContent  = p.description;
+
+    if (specsEl) {
+      if (p.specs && Object.keys(p.specs).length) {
+        specsEl.style.display = '';
+        specsEl.innerHTML = Object.entries(p.specs).map(([k,v]) =>
+          '<div class="pf-modal-spec-row">' +
+          '<span class="pf-modal-spec-key">' + k + '</span>' +
+          '<span class="pf-modal-spec-val">' + v + '</span>' +
+          '</div>'
+        ).join('');
+      } else {
+        specsEl.style.display = 'none';
+      }
+    }
+
+    if (ctaEl) ctaEl.dataset.title = p.title;
+
+    // ── Show backdrop ────────────────────────────────────────────────
+    const backdrop = document.getElementById('pf-modal-backdrop');
+    if (backdrop) backdrop.classList.add('pf-open');
+  }
+
+  // Build placeholder for modal image pane
+  function pfBuildModalPlaceholder(p) {
+    const svg = pfPlaceholders[p.placeholderIcon] ||
+      '<svg width="60" height="60" viewBox="0 0 60 60">' +
+      '<rect x="10" y="10" width="40" height="40" fill="none" ' +
+      'stroke="rgba(189,176,120,0.3)" stroke-width="1"/></svg>';
+    const ph = document.createElement('div');
+    ph.className = 'pf-modal-img-placeholder';
+    ph.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;background:' + p.placeholderColor + ';';
+    ph.innerHTML = svg +
+      '<div style="font-size:0.58rem;letter-spacing:0.28em;text-transform:uppercase;color:rgba(189,176,120,0.45);">' +
+      p.category + '</div>';
+    return ph;
+  }
+
+  // ── Modal close ───────────────────────────────────────────────────────
+  function pfCloseModal() {
+    const backdrop = document.getElementById('pf-modal-backdrop');
+    if (backdrop) backdrop.classList.remove('pf-open');
+    document.body.style.overflow = '';
+    pfActiveModalId = null;
+  }
+
+  const pfModalCloseBtn   = document.getElementById('pf-modal-close');
+  const pfModalBackdropEl = document.getElementById('pf-modal-backdrop');
+  if (pfModalCloseBtn)   pfModalCloseBtn.addEventListener('click', pfCloseModal);
+  if (pfModalBackdropEl) pfModalBackdropEl.addEventListener('click', function(e) {
+    if (e.target === this) pfCloseModal();
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (!pfActiveModalId) return;
+    if (e.key === 'Escape')     pfCloseModal();
+    if (e.key === 'ArrowRight') pfModalNav(1);
+    if (e.key === 'ArrowLeft')  pfModalNav(-1);
+  });
+
+  // ── Modal keyboard navigation ─────────────────────────────────────────
+  function pfModalNav(dir) {
+    const filtered = pfGetFiltered();
+    const idx = filtered.findIndex(p => p.id === pfActiveModalId);
+    const next = filtered[idx + dir];
+    if (next) pfOpenModal(next.id);
+  }
+
+  // ── Modal CTA → pre-fill contact form ────────────────────────────────
+  function pfQuoteFromModal() {
+    const title = (document.getElementById('pf-modal-cta') || {}).dataset?.title || '';
+    pfCloseModal();
+    const msgEl = document.getElementById('message');
+    if (msgEl && title) {
+      msgEl.value = 'I am interested in a design similar to: "' + title + '". Please provide a quotation.';
+    }
+    setTimeout(() => {
+      const contactEl = document.getElementById('contact');
+      if (contactEl) contactEl.scrollIntoView({ behavior: 'smooth' });
+    }, 320);
+  }
+
+  // ── INIT ─────────────────────────────────────────────────────────────
+  pfRender();
+
+  // Nav scroll
+
+  // Nav scroll
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('main-nav');
+    nav.style.background = window.scrollY > 60 ? 'rgba(10,10,10,0.97)' : 'rgba(18,18,18,0.92)';
+  });
+
+  // Scroll-reveal (simple)
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.product-card, .about-stat, .contact-item').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(el);
+  });
+
+}); // end DOMContentLoaded
+</script>
+</body>
+</html>

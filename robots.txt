@@ -1,0 +1,8 @@
+# MBEES robots.txt
+# Tells Google and all search engines: "You are welcome to index this site"
+# Replace https://www.mbees.in with your actual domain
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.mbees.in/sitemap.xml
